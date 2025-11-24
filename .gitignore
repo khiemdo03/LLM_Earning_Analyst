@@ -1,0 +1,8 @@
+.venv/
+checkpoints/
+data/raw/
+tokenizer/*.model
+tokenizer/*.vocab
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

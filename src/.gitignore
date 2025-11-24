@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data
+data/raw/*
+data/processed/*
+!data/processed/README.md
+
+# Tokenizer
+tokenizer/*
+!tokenizer/.gitkeep
+
+# Checkpoints
+checkpoints/*
+
+# Virtual Environment
+.venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System
+.DS_Store

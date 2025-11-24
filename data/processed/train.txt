@@ -1,0 +1,1786 @@
+Earnings Call Transcript
+Nvidia (NVDA) Q2 2025 Earnings Call Transcript
+By Motley Fool Transcribing – Aug 28, 2024 at 8:15PM
+Follow
+
+NVDA earnings call for the period ending June 30, 2024.
+
+Nvidia (
+NVDA
+1.06%)
+Q2 2025 Earnings Call
+Aug 28, 2024, 5:00 p.m. ET
+Contents:
+
+Prepared Remarks
+Questions and Answers
+Call Participants
+
+Prepared Remarks:
+
+Operator
+
+Good afternoon. My name is Abby, and I will be your conference operator today. At this time, I would like to welcome everyone to NVIDIA's second-quarter earnings call. All lines have been placed on mute to prevent any background noise.
+
+After the speakers' remarks, there will be a question-and-answer session. [Operator instructions] Thank you. And Mr. Stewart Stecker, you may begin your conference.
+
+Stewart Stecker -- Senior Director, Investor Relations
+
+Thank you. Good afternoon, everyone, and welcome to NVIDIA's conference call for the second quarter of fiscal 2025. With me today from NVIDIA are Jensen Huang, president and chief executive officer; and Colette Kress, executive vice president and chief financial officer. I would like to remind you that our call is being webcast live on NVIDIA's Investor Relations website.
+
+The webcast will be available for replay until the conference call to discuss our financial results for the third quarter of fiscal 2025. The content of today's call is NVIDIA's property. It cannot be reproduced or transcribed without prior written consent. During this call, we may make forward-looking statements based on current expectation.
+
+These are subject to a number of risks, significant risks, and uncertainties, and our actual results may differ materially. For a discussion of factors that could affect our future financial results and business, please refer to the disclosure in today's earnings release, our most recent Forms 10-K and 10-Q, and the reports that we may file on Form 8-K with the Securities and Exchange Commission. All our statements are made as of today, August 28, 2024, based on information currently available to us. Except as required by law, we assume no obligation to update any such statements.
+
+During this call, we will discuss non-GAAP financial measures. You can find a reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which is posted on our website. Let me highlight an upcoming event for the financial community. We will be attending the Goldman Sachs Communacopia and Technology Conference on September 11 in San Francisco, where Jensen will participate in a keynote fireside chat.
+
+Our earnings call to discuss the results of our third quarter of fiscal 2025 is scheduled for Wednesday, November 20, 2024. With that, let me turn the call over to Colette.
+
+Colette M. Kress -- Chief Financial Officer, Executive Vice President
+
+Thanks, Stewart. Q2 was another record quarter. Revenue of $30 billion was up 15% sequentially and up 122% year on year and well above our outlook of $28 billion. Starting with Data Center.
+
+Data Center revenue of $26.3 billion was a record, up 16% sequentially and up 154% year on year, driven by strong demand for NVIDIA Hopper, GPU computing, and our networking platforms. Compute revenue grew more than 2.5x. Networking revenue grew more than 2x from the last year. Cloud service providers represented roughly 45% of our Data Center revenue, and more than 50% stemmed from the consumer Internet and enterprise companies.
+
+Customers continue to accelerate their Hopper architecture purchases while gearing up to adopt Blackwell. Key workloads driving our Data Center growth include generative AI model training and inferencing; video, image, and text data pre and post processing with CUDA and AI workloads; synthetic data generation; AI-powered recommender systems; SQL and Vector database processing as well. Next-generation models will require 10 to 20 times more compute to train with significantly more data. The trend is expected to continue.
+
+Over the trailing four quarters, we estimate that inference drove more than 40% of our Data Center revenue. CSPs, consumer Internet companies, and enterprises benefit from the incredible throughput and efficiency of NVIDIA's inference platform. Demand for NVIDIA is coming from frontier model makers, consumer Internet services, and tens of thousands of companies and start-ups building generative AI applications for consumers, advertising, education, enterprise and healthcare, and robotics. Developers desire NVIDIA's rich ecosystem and availability in every cloud.
+
+CSPs appreciate the broad adoption of NVIDIA and are growing their NVIDIA capacity given the high demand. NVIDIA H200 platform began ramping in Q2, shipping to large CSPs, consumer Internet, and enterprise company. The NVIDIA H200 builds upon the strength of our Hopper architecture and offering over 40% more memory bandwidth compared to the H100. Our Data Center revenue in China grew sequentially in Q2 and a significant contributor to our Data Center revenue.
+
+As a percentage of total Data Center revenue, it remains below levels seen prior to the imposition of export controls. We continue to expect the China market to be very competitive going forward. The latest round of MLPerf inference benchmarks highlighted NVIDIA's inference leadership with both NVIDIA Hopper and Blackwell platform combining to win gold medals on all tasks. At Computex, NVIDIA, with the top computer manufacturers, unveiled an array of Blackwell architecture-powered systems and NVIDIA networking for building AI factories and data centers.
+
+With the NVIDIA MGX modular reference architecture, our OEMs and ODM partners are building more than 100 Blackwell-based systems designed quickly and cost-effectively. The NVIDIA Blackwell platform brings together multiple GPU, CPU, DPU, NVLink, and Link Switch and the networking chips, systems, and NVIDIA CUDA software to power the next generation of AI across the cases, industries, and countries. The NVIDIA GB200 NVL72 system with the fifth-generation NVLink enables all 72 GPUs to act as a single GPU and deliver up to 30x faster inference for LLM's workloads and unlocking the ability to run trillion-parameter models in real time. Hopper demand is strong, and Blackwell is widely sampling.
+
+We executed a change to the Blackwell GPU mass to improve production yields. Blackwell production ramp is scheduled to begin in the fourth quarter and continue into fiscal year '26. In Q4, we expect to get several billion dollars in Blackwell revenue. Hopper shipments are expected to increase in the second half of fiscal 2025.
+
+Hopper supply and availability have improved. Demand for Blackwell platforms is well above supply, and we expect this to continue into next year. Networking revenue increased 16% sequentially. Our Ethernet for AI revenue, which includes our Spectrum-X end-to-end Ethernet platform, doubled sequentially with hundreds of customers adopting our Ethernet offerings.
+
+Spectrum-X has broad market support from OEM and ODM partners and is being adopted by CSPs, GPU cloud providers, and enterprises, including xAI to connect the largest GPU compute cluster in the world. Spectrum-X supercharges Ethernet for AI processing and delivers 1.6x the performance of traditional Ethernet. We plan to launch new Spectrum-X products every year to support demand for scaling compute clusters from tens of thousands of GPUs today to millions of DPUs in the near future. Spectrum-X is well on track to begin a multibillion-dollar product line within a year.
+
+Our sovereign AI opportunities continue to expand as countries recognize AI expertise and infrastructure at national imperatives for their society and industries. Japan's National Institute of Advanced Industrial Science and Technology is building its AI Bridging Cloud Infrastructure 3.0 supercomputer with NVIDIA. We believe sovereign AI revenue will reach low double-digit billions this year. The enterprise AI wave has started.
+
+Enterprises also drove sequential revenue growth in the quarter. We are working with most of the Fortune 100 companies on AI initiatives across industries and geographies. A range of applications are fueling our growth, including AI-powered chatbots, generative AI copilots, and agents to build new monetizable business applications and enhance employee productivity. Amdocs is using NVIDIA generative AI for their smart agent, transforming the customer experience and reducing customer service costs by 30%.
+
+ServiceNow is using NVIDIA for its Now Assist offering, the fastest-growing new product in the company's history. SAP is using NVIDIA to build dual copilots. Cohesity is using NVIDIA to build their generative AI agent and lower generative AI development costs. Snowflake, serves over 3 billion queries a day for over 10,000 enterprise customers, is working with NVIDIA to build copilots.
+
+And lastly, is using NVIDIA AI Omniverse to reduce end-to-end cycle times for their factories by 50%. Automotive was a key growth driver for the quarter as every automaker developing autonomous vehicle technology is using NVIDIA in their data centers. Automotive will drive multibillion dollars in revenue across on-prem and cloud consumption and will grow as next-generation AV models require significantly more compute. Health care is also on its way to being a multibillion-dollar business as AI revolutionizes medical imaging, surgical robots, patient care, electronic health record processing, and drug discovery.
+
+During the quarter, we announced a new NVIDIA AI foundry service to supercharge generative AI for the world's enterprises with Meta's Llama 3.1 collection of models. This marks a watershed moment for enterprise AI. Companies for the first time can leverage the capabilities of an open-source frontier-level model to develop customized AI applications to encode their institutional knowledge into an AI flywheel to automate and accelerate their business. Accenture is the first to adopt the new service to build custom Llama 3.1 models for both its own use and to assist clients seeking to deploy generative AI applications.
+
+NVIDIA NIMs accelerate and simplify model deployment. Companies across healthcare, energy, financial services, retail, transportation, and telecommunications are adopting NIMs, including Aramco, Lowes, and Uber. AT&T realized 70% cost savings and eight times latency reduction after moving into NIMs for generative AI, call transcription, and classification. Over 150 partners are embedding NIMs across every layer of the AI ecosystem.
+
+We announced NIM Agent Blueprint, a catalog of customizable reference applications that include a full suite of software for building and deploying enterprise generative AI applications. With NIM Agent Blueprint, enterprises can refine their AI applications over time, creating a data-driven AI flywheel. The first NIM Agent Blueprints include workloads for customer service, computer-aided drug discovery, and enterprise retrieval augmented generation. Our system integrators, technology solution providers, and system builders are bringing NVIDIA NIM Agent Blueprints to enterprises.
+
+NVIDIA NIM and NIM Agent Blueprints are available through the NVIDIA AI Enterprise software platform, which has great momentum. We expect our software, SaaS, and support revenue to approach a $2 billion annual run rate exiting this year, with NVIDIA AI Enterprise notably contributing to growth. Moving to gaming and AI PC. Gaming revenue of $2.88 billion increased 9% sequentially and 16% year on year.
+
+We saw sequential growth in console, notebook, and desktop revenue, and demand is strong and growing and channel inventory remains healthy. Every PC with RTX is an AI PC. RTX PCs can deliver up to 1,300 AI tops and are now over 200 RTX AI laptops designed from leading PC manufacturers. With 600 AI-powered applications and games and an installed base of 100 million devices, RTX is set to revolutionize consumer experiences with generative AI.
+
+NVIDIA ACE, a suite of generative AI technologies is available for RTX AI PCs. Megabreak is the first game to use NVIDIA ACE, including our small language model, Nemotron 4B optimized on device inference. The NVIDIA gaming ecosystem continues to grow. Recently added RTX and DLSS titles include Indiana Jones and The Great Circle, Awakening, and Dragon Age: The Vanguard.
+
+The GeForce NOW library continues to expand with total catalog size of over 2,000 titles, the most content of any cloud gaming service. Moving to pro visualization. Revenue of $454 million was up 6% sequentially and 20% year on year. Demand is being driven by AI and graphic use cases, including model fine-tuning and Omniverse-related workloads.
+
+Automotive and manufacturing were among the key industry verticals driving growth this quarter. Companies are racing to digitalize workflows to drive efficiency across their operations. The world's largest electronics manufacturer, Foxconn, is using NVIDIA Omniverse to power digital twins of the physical plants that produce NVIDIA Blackwell systems. And several large global enterprises, including Mercedes-Benz, signed multiyear contracts for NVIDIA Omniverse Cloud to build industrial digital twins of factories.
+
+We announced new NVIDIA USD NIMs and connectors to open Omniverse to new industries and enable developers to incorporate generative AI copilots and agents into USD workloads, accelerating our ability to build highly accurate virtual worlds. WPP is implementing the USD NIM microservices in its generative AI-enabled content creation pipeline for customers such as The Coca-Cola Company. Moving to automotive and robotics. Revenue was $346 million, up 5% sequentially and up 37% year on year.
+
+Year-on-year growth was driven by the new customer ramp in self-driving platforms and increased demand for AI cockpit solutions. At the consumer -- at the Computer Vision and Pattern Recognition Conference, NVIDIA won the Autonomous Brand Challenge in the end-to-end driving upscale category, outperforming more than 400 entries worldwide. Boston Dynamics, BYD Electronics, Figure, Intrinsyc, Siemens, and Teradyne Robotics are using the NVIDIA Isaac robotics platform for autonomous robot arms, humanoids, and mobile robots. Now, moving to the rest of the P&L.
+
+GAAP gross margins were 75.1% and non-GAAP gross margins were 75.7%, down sequentially due to a higher mix of new products within Data Center and inventory provisions for low-yielding Blackwell material. Sequentially, GAAP and non-GAAP operating expenses were up 12%, primarily reflecting higher compensation-related costs. Cash flow from operations was $14.5 billion. In Q2, we utilized cash of $7.4 billion toward shareholder returns in the form of share repurchases and cash dividends, reflecting the increase in dividend per shareholder.
+
+Our board of directors recently approved a $50 billion share repurchase authorization to add to our remaining $7.5 billion of authorization at the end of Q2. Let me turn the outlook for the third quarter. Total revenue is expected to be $32.5 billion, plus or minus 2%. Our third-quarter revenue outlook incorporates continued growth of our Hopper architecture and sampling of our Blackwell products.
+
+We expect Blackwell production ramp in Q4. GAAP and non-GAAP gross margins are expected to be 74.4% and 75%, respectively, plus or minus 50 basis points. As our Data Center mix continues to shift to new products, we expect this trend to continue into the fourth quarter of fiscal 2025. For the full year, we expect gross margins to be in the mid-70% range.
+
+GAAP and non-GAAP operating expenses are expected to be approximately $4.3 billion and $3.0 billion, respectively. Full-year operating expenses are expected to grow in the mid- to upper 40% range as we work on developing our next generation of products. GAAP and non-GAAP other income and expenses are expected to be about $350 million, including gains and losses from nonaffiliated investments and publicly held equity securities. GAAP and non-GAAP tax rates are expected to be 17%, plus or minus 1%, excluding any discrete items.
+
+Further financial details are included in the CFO commentary and other information available on our IR website. We are now going to open the call for questions. Operator, would you please help us poll for questions?
+Questions & Answers:
+
+Operator
+
+Thank you. [Operator instructions] We will pause for just a moment to compile the Q&A roster. And as a reminder, we ask that you please limit yourself to one question. And your first question comes from the line of Vivek Arya with Bank of America Securities.
+
+Your line is open.
+
+Vivek Arya -- Analyst
+
+Thanks for taking my question. Jensen, you mentioned in the prepared comments that there's a change in the Blackwell GPU mask. I'm curious, are there any other incremental changes in back-end packaging or anything else? And I think related, you suggested that you could ship several billion dollars of Blackwell in Q4 despite the change in the design. Is it because all these issues will be solved by then? Just help us size what is the overall impact of any changes in Blackwell timing, what that means to your kind of revenue profile and how are customers reacting to it.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. Thanks, Vivek. The change to the mask is complete. There were no functional changes necessary.
+
+And so, we're sampling functional samples of Blackwell, Grace Blackwell, and a variety of system configurations as we speak. There are something like 100 different types of Blackwell-based systems that are built that were shown at Computex, and we're enabling our ecosystem to start sampling those. The functionality of Blackwell is as it is, and we expect to start production in Q4.
+
+Operator
+
+And your next question comes from the line of Toshiya Hari with Goldman Sachs. Your line is open.
+
+Toshiya Hari -- Analyst
+
+Hi. Thank you so much for taking the question. Jensen, I had a relatively longer-term question. As you may know, there's a pretty heated debate in the market on your customers and customers' customers return on investment and what that means for the sustainability of capex going forward.
+
+Internally at NVIDIA, like what are you guys watching? What's on your dashboard as you try to gauge customer return and how that impacts capex? And then a quick follow-up maybe for Colette. I think your sovereign AI number for the full year went up maybe a couple of billion. What's driving the improved outlook and how should we think about fiscal '26? Thank you.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Thanks, Toshiya. First of all, when I said ship production in Q4, I mean shipping out, I don't mean starting to ship, but I mean -- I don't mean starting production but shipping up. On the longer-term question, let's take a step back. And you've heard me say that we're going through two simultaneous platform transitions at the same time.
+
+The first one is transitioning from accelerated computing to -- from general-purpose computing to accelerated computing. And the reason for that is because CPU scaling has been known to be slowing for some time and it has slowed to a crawl. And yet the amount of computing demand continues to grow quite significantly. You could maybe even estimate it to be doubling every single year.
+
+And so, if we don't have a new approach, computing inflation would be driving up the cost for every company, and it would be driving up the energy consumption of data centers around the world. In fact, you're seeing that. And so, the answer is accelerated computing. We know that accelerated computing, of course, speeds up applications.
+
+It also enables you to do computing at a much larger scale, for example, scientific simulations or database processing, but what that translates directly to is lower cost and lower energy consumed. And in fact, this week, there's a blog that came out that talked about a whole bunch of new libraries that we offer. And that's really the core of the first platform transition, going from general-purpose computing to accelerated computing. And it's not unusual to see someone save 90% of their computing cost.
+
+And the reason for that is, of course, you just sped up an application 50x. You would expect the computing cost to decline quite significantly. The second was enabled by accelerated computing because we drove down the cost of training large language models or training deep learning so incredibly that it is now possible to have gigantic scale models, multitrillion-parameter models and train it on -- pretrain it on just about the world's knowledge corpus and let the model go figure out how to understand human language representation and how to codify knowledge into its neural networks and how to learn reasoning, and so which caused the generative AI revolution. Now, generative AI, taking a step back about why it is that we went so deeply into it is because it's not just a feature, it's not just the capability.
+
+It's a fundamental new way of doing software. Instead of human-engineered algorithms, we now have data. We tell the AI, we tell the model, we tell the computer what are the expected answers. What are our previous observations? And then for it to figure out what the algorithm is, what's the function.
+
+It learns a universal -- AI is a bit of a universal function approximator and it learns the function. And so, you could learn the function of almost anything. And anything that you have that's predictable, anything that has structure, anything that you have previous examples of. And so, now here we are with generative AI.
+
+It's a fundamental new form of computer science. It's affecting how every layer of computing is done from CPU to GPU, from human-engineered algorithms to machine-learned algorithms, and the type of applications you could now develop and produce is fundamentally remarkable. And there are several things that are happening in generative AI. So, the first thing that's happening is the frontier models are growing in quite substantial scale.
+
+And they're still seeing -- we're still all seeing the benefits of scaling. And whenever you double the size of a model, you also have to more than double the size of the data set to go train it. And so, the amount of flops necessary in order to create that model goes up quadratically. And so, it's not unexpected to see that the next-generation models could take 10, 20, 40 times more compute than last generation.
+
+So, we have to continue to drive the generational performance up quite significantly so we can drive down the energy consumed and drive down the cost necessary to do it. And so, the first one is there are larger frontier models trained on more modalities. And surprisingly, there are more frontier model makers than last year. And so, you have more and more and more.
+
+That's one of the dynamics going on in generative AI. The second is although it's below the tip of the iceberg, what we see are ChatGPT image generators. We see coding. We use generative AI for coding quite extensively here at NVIDIA now.
+
+We, of course, have a lot of digital designers and things like that. But those are kind of the tip of the iceberg. What's below the iceberg are the largest systems, largest computing systems in the world today, which are -- and you've heard me talk about this in the past, which are recommender systems moving from CPUs. It's now moving from CPUs to generative AI.
+
+So, recommender systems, ad generation, custom ad generation targeting ads at very large scale and quite hyper-targeting, search, and user-generated content, these are all very large-scale applications have now evolved to generative AI. Of course, the number of generative AI start-ups is generating tens of billions of dollars of cloud renting opportunities for our cloud partners. And sovereign AI, countries that are now realizing that their data is their natural and national resource and they have to use AI, build their own AI infrastructure so that they could have their own digital intelligence. Enterprise AI, as Colette mentioned earlier, is starting, and you might have seen our announcement that the world's leading IT companies are joining us to take the NVIDIA AI Enterprise platform to the world's enterprises.
+
+The companies that we're talking to, so many of them are just so incredibly excited to drive more productivity out of the company. And then general robotics. The big transformation last year as we are able to now learn physical AI from watching video and human demonstration and synthetic data generation from reinforcement learning from systems like Omniverse, we are now able to work with just about every robotics companies now to start thinking about, start building general robotics. And so, you can see that there are just so many different directions that generative AI is going.
+
+And so, we're actually seeing the momentum of generative AI accelerating.
+
+Colette M. Kress -- Chief Financial Officer, Executive Vice President
+
+And Toshiya, to answer your question regarding sovereign AI and our goals in terms of growth, in terms of revenue, it certainly is a unique and growing opportunity, something that surfaced with generative AI and the desires of countries around the world to have their own generative AI that would be able to incorporate their own language, incorporate their own culture, incorporate their own data in that country. So, more and more excitement around these models and what they can be specific for those countries. So, yes, we are seeing some growth opportunity in front of us.
+
+Operator
+
+And your next question comes from the line of Joe Moore with Morgan Stanley. Your line is open.
+
+Joe Moore -- Analyst
+
+Great. Thank you. Jensen, in the press release, you talked about Blackwell anticipation being incredible. But it seems like Hopper demand is also really strong.
+
+I mean, you're guiding for a very strong quarter without Blackwell in October. So, how long do you see sort of coexisting strong demand for both? And can you talk about the transition to Blackwell? Do you see people intermixing clusters? Do you think most of the Blackwell activities, new clusters? Just some sense of what that transition looks like.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. Thanks, Joe. The demand for Hopper is really strong. And it's true, the demand for Blackwell is incredible.
+
+There's a couple of reasons for that. The first reason is if you just look at the world's cloud service providers, the amount of GPU capacity they have available, it's basically none. And the reason for that is because they're either being deployed internally for accelerating their own workloads, data processing, for example. Data processing, we hardly ever talk about it because it's mundane.
+
+It's not very cool because it doesn't generate a picture or generate words. But almost every single company in the world processes data in the background. And NVIDIA's GPUs are the only accelerators on the planet that process and accelerate data. SQL data, Panda's data, data science toolkits like Panda's, and the new one, Polar's.
+
+These are the ones -- the most popular data processing platforms in the world. And aside from CPUs, which as I've mentioned before, really running out of steam, NVIDIA's accelerated computing is really the only way to get boosting performance out of that. And so, number one is the primary -- the No. 1 use case long before generative AI came along is that the migration of applications one after another to accelerated computing.
+
+The second is, of course, the rentals. They're renting capacity to model makers. They're renting it to start-up companies. And a generative AI company spends the vast majority of their invested capital into infrastructure so that they could use an AI to help them create products.
+
+And so, these companies need it now. They just simply can't afford -- you just raise money. They want you to put it to use now. You have processing that you have to do.
+
+You can't do it next year, you got to do it today. And so, there's a fair -- that's one reason. The second reason for Hopper demand right now is because of the race to the next plateau. The first person to the next plateau gets to be -- get to introduce a revolutionary level of AI.
+
+The second person who gets there is incrementally better or about the same. And so, the ability to systematically and consistently race to the next plateau and be the first one there is how you establish leadership. NVIDIA is constantly doing that, and we show that to the world and the GPUs we make and the AI factories that we make, the networking systems that we make, the SoCs we create. I mean, we want to set the pace.
+
+We want to be consistently the world's best. And that's the reason why we drive ourselves so hard. Of course, we also want to see our dreams come true and all of the capabilities that we imagine in the future and the benefits that we can bring to society, we want to see all that come true. And so, these model makers are the same.
+
+Of course, they want to be the world's best. They want to be the world's first. And although Blackwell will start shipping out in billions of dollars at the end of this year, the standing up of the capacity is still probably weeks and a month or so away. And so, between now and then is a lot of generative AI market dynamic.
+
+And so, everybody is just really in a hurry. It's either operational reasons that they need it. They need accelerated computing. They don't want to build any more general-purpose computing infrastructure and even Hopper.
+
+Of course, H200 is state-of-the-art. Hopper, if you have a choice between building CPU infrastructure right now for business or Hopper infrastructure for business right now, that decision is relatively clear. And so, I think people are just clamoring to transition the $1 trillion of established installed infrastructure to a modern infrastructure and Hopper's state-of-the-art.
+
+Operator
+
+And your next question comes from the line of Matt Ramsay with TD Cowen. Your line is open.
+
+Matt Ramsay -- Analyst
+
+Thank you very much. Good afternoon, everybody. Jensen, I wanted to kind of circle back to an earlier question about the debate that investors are having about the ROI on all of this capex. And hopefully, this question and the distinction will make some sense.
+
+But what I'm having discussions about is with like the percentage of folks that you see that are spending all of this money and looking to sort of push the frontier toward AGI convergence and, as you just said, a new plateau in capability, and they're going to spend regardless to get to that level of capability because it opens up so many doors for the industry and for their company versus customers that are really, really focused today on capex versus ROI. I don't know if that distinction makes sense. I'm just trying to get a sense of how you're seeing the priorities of people that are putting the dollars in the ground on this new technology and what their priorities are and their time frames are for that investment. Thanks.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Thanks, Matt. The people who are investing in NVIDIA infrastructure are getting returns on it right away. It's the best ROI infrastructure, computing infrastructure investment you can make today. And so, one way to think through it, probably the most -- the easiest way to think through it is just go back to first principles.
+
+You have $1 trillion worth of general-purpose computing infrastructure. And the question is, do you want to build more of that or not? And for every $1 billion worth of Juniper CPU-based infrastructure that you stand up, you probably rent it for less than $1 billion. And so, because it's commoditized, there's already $1 trillion on the ground. What's the point of getting more? And so, the people who are clamoring to get this infrastructure, one, when they build out Hopper-based infrastructure and soon, Blackwell-based infrastructure, they start saving money.
+
+That's a tremendous return on investment. And the reason why they start saving money is because data processing saves money, and data processing is probably just a giant part of it already. And so, recommender systems save money, so on and so forth, OK? And so, you start saving money. The second thing is everything you stand up are going to get rented because so many companies are being founded to create generative AI.
+
+And so, your capacity gets rented right away and the return on investment of that is really good. And then the third reason is your own business. Do you want to either create the next frontier yourself or your own Internet services benefit from a next-generation ad system or a next-generation recommender system or a next-generation search system? So, for your own services, for your own stores, for your own user-generated content, social media platforms, for your own services, generative AI is also a fast ROI. And so, there's a lot of ways you could think through it.
+
+But at the core, it's because it is the best computing infrastructure you could put in the ground today. The world of general-purpose computing is shifting to accelerated computing. The world of human-engineered software is moving to generative AI software. If you were to build infrastructure to modernize your cloud and your data centers, build it with accelerated computing NVIDIA.
+
+That's the best way to do it.
+
+Operator
+
+And your next question comes from the line of Timothy Arcuri with UBS. Your line is open.
+
+Timothy Arcuri -- Analyst
+
+Thanks a lot. I had a question on the shape of the revenue growth, both near and longer term. I know Colette, you did increase opex for the year. And if I look at the increase in your purchase commitments and your supply obligations, that's also quite bullish.
+
+On the other hand, there's some school of thought that not that many customers really seem ready for liquid cooling, and I do recognize that some of these racks can be air-cooled. But Jensen, is that something to consider sort of on the shape of how Blackwell is going to ramp? And then I guess when you look beyond next year, which is obviously going to be a great year and you look into '26, do you worry about any other gating factors like, say, the power supply chain or at some point, models start to get smaller? I'm just wondering if you can speak to that. Thanks.
+
+Jensen Huang -- President and Chief Executive Officer
+
+I'm going to work backwards. I really appreciate the question, Tim. So, remember, the world is moving from general-purpose computing to accelerated computing. And the world builds about $1 trillion worth of data centers.
+
+$1 trillion worth of data centers in a few years will be all accelerated computing. In the past, no GPUs are in data centers, just CPUs. In the future, every single data center will have GPUs. And the reason for that is very clear: because we need to accelerate workloads so that we can continue to be sustainable, continue to drive down the cost of computing so that when we do more computing, we don't experience computing inflation.
+
+Second, we need GPUs for a new computing model called generative AI that we could all acknowledge is going to be quite transformative to the future of computing. And so, I think working backwards, the way to think about that is the next $1 trillion of the world's infrastructure will clearly be different than the last $1 trillion, and it will be vastly accelerated. With respect to the shape of our ramp, we offer multiple configurations of Blackwell. Blackwell comes in either a Blackwell classic, if you will, that uses the HGX form factor that we pioneered with Volta.
+
+And I think it was Volta. And so, we've been shipping the HGX form factor for some time. It is air-cooled. The Grace Blackwell is liquid-cooled.
+
+However, the number of data centers that want to go to liquid-cooled is quite significant. And the reason for that is because we can, in a liquid-cooled data center, in any data center -- power-limited data center, whatever size data center you choose, you could install and deploy anywhere from three to five times the AI throughput compared to the past. And so, liquid cooling is cheaper. Liquid cooling, our TCO is better, and liquid cooling allows you to have the benefit of this capability we call NVLink, which allows us to expand it to 72 Grace Blackwell packages, which has essentially 144 GPUs.
+
+And so, imagine 144 GPUs connected in NVLink. And that, we're increasingly showing you the benefits of that. And the next click is obviously very low latency, very high throughput large language model inference, and the large NVLink domain is going to be a game changer for that. And so, I think people are very comfortable deploying both.
+
+And so, almost every CSP we're working with are deploying some of both. And so, I'm pretty confident that we'll ramp it up just fine. Your second question out of the third is that looking forward, yes, next year is going to be a great year. We expect to grow our Data Center business quite significantly next year.
+
+Blackwell is going to be a complete game changer for the industry. And Blackwell is going to carry into the following year. And as I mentioned earlier, working backwards from first principles, remember that computing is going through two platform transitions at the same time. And that's just really, really important to keep your head on -- your mind focused on, which is general-purpose computing is shifting to accelerated computing, and human-engineered software is going to transition to generative AI or artificial intelligence-learned software.
+
+OK.
+
+Operator
+
+And your next question comes from the line of Stacy Rasgon with Bernstein Research. Your line is open.
+
+Stacy Rasgon -- Analyst
+
+Hi, guys. Thanks for taking my question. So, I have two short questions for Colette. The first several billion dollars of Blackwell revenue in Q4, is that additive? You said you expected Hopper demand to strengthen in the second half.
+
+Does that mean Hopper strengthens Q3 to Q4 as well on top of Blackwell adding several billion dollars? And the second question on gross margins. If I have mid-70s for the year, let's say, where I want to draw that, if I have 75 for the year, I'd be something like 71 to 72 for Q4, somewhere in that range. Is that the kind of exit rate for gross margins that you're expecting? And how should we think about the drivers of gross margin evolution into next year as Blackwell ramps? And I mean, hopefully, I guess the yields and the inventory reserves and everything come up.
+
+Colette M. Kress -- Chief Financial Officer, Executive Vice President
+
+So, Stacy, let's first take your question that you had about Hopper and Blackwell. So, we believe our Hopper will continue to grow into the second half. We have many new products for Hopper, our existing products for Hopper that we believe will start continuing to ramp in the next quarters, including our Q3 and those new products moving to Q4. So, let's say, Hopper there for versus H1 is a growth opportunity for that.
+
+Additionally, we have the Blackwell on top of that, and the Blackwell starting ramping in Q4. So, I hope that helps you on those two pieces. Your second piece is in terms of our gross margin. We provided gross margin for our Q3.
+
+We provided our gross margin on a non-GAAP at about 75. We'll work with all the different transitions that we're going through, but we do believe we can do that 75 in Q3. We provided that we're still on track for the full year also in the mid-70s or approximately the 75. So, we're going to see some slight difference possibly in Q4, again with our transitions and the different cost structures that we have on our new product introductions.
+
+However, I'm not in the same number that you are there. We don't have exactly guidance, but I do believe you're lower than where we are.
+
+Operator
+
+And your next question comes from the line of Ben Reitzes with Melius. Your line is open.
+
+Ben Reitzes -- Melius Research -- Analyst
+
+Yeah. Hey, thanks a lot for the question. I wanted to ask about the geographies. There was the 10-Q that came out, and the United States was down sequentially while several Asian geographies were up a lot sequentially.
+
+Just wondering what the dynamics are there. And obviously, China did very well. You mentioned it in your remarks. What are the puts and takes? And then I just wanted to clarify from Stacy's question if that means the sequential overall revenue growth rates for the company accelerate in the fourth quarter, given all those favorable revenue dynamics.
+
+Thanks.
+
+Colette M. Kress -- Chief Financial Officer, Executive Vice President
+
+Let me talk about a bit in terms of our disclosure in terms of the 10-Q, a required disclosure in a choice of geographies. Very challenging sometimes to create that right disclosure as we have to come up with one key piece. The pieces in terms of we have in terms of who we sell to and/or specifically who we invoice to, and so what you're seeing in terms of there is who we invoice. That's not necessarily where the product will eventually be and where it may even travel to the end customer.
+
+These are just moving to our OEMs or ODMs and our system integrators for the most part across our product portfolio. So, what you're seeing there is sometimes just a swift shift in terms of who they are using to complete their full configuration before those things are going into the data center, going into notebooks and those pieces of it. And that shift happens from time to time. But yes, our China number there are invoicing to China.
+
+Keep in mind that is incorporating both gaming, also Data Center, also automotive in those numbers that we have. Going back to your statement and regarding gross margin and also what we're seeing in terms of what we're looking at for Hopper and Blackwell in terms of revenue. Hopper will continue to grow in the second half. We'll continue to grow from what we are currently seeing.
+
+Determining that exact mix in each Q3 and Q4, we don't have here. We are not here to guide yet in terms of Q4. But we do see right now the demand expectations. We do see the visibility that that will be a growth opportunity in Q4.
+
+On top of that, we will have our Blackwell architecture.
+
+Operator
+
+And your next question comes from the line of C.J. Muse with Cantor Fitzgerald. Your line is open.
+
+C.J. Muse -- Analyst
+
+Yeah. Good afternoon. Thank you for taking the question. You've embarked on a remarkable annual product cadence with challenges only likely becoming more and more, given rising complexity in a rather limit advanced package world.
+
+So, curious, if you take a step back, how does this backdrop alter your thinking around potentially greater vertical integration, supply chain partnerships, and then taking through a consequential impact to your margin profile? Thank you.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. Thanks. Let's see. I think the first answer to your -- the answer to your first question is that the reason why our velocity is so high is simultaneously because the complexity of the model is growing, and we want to continue to drive its cost down.
+
+It's growing so we want to continue to increase its scale. And we believe that by continuing to scale the AI models, that we'll reach a level of extraordinary usefulness and that it would open up, realize the next industrial revolution. We believe it. And so, we're going to drive ourselves really hard to continue to go up that scale.
+
+We have the ability, fairly uniquely, to integrate, to design an AI factory because we have all the parts. It's not possible to come up with a new AI factory every year unless you have all the parts. And so, we have -- next year, we're going to ship a lot more CPUs than we've ever had in the history of our company, more GPUs, of course, but also NVLink switches, CX DPUs, ConnectX for East and West, BlueField DPUs for North and South, and data and storage processing to InfiniBand for supercomputing centers, to Ethernet, which is a brand-new product for us, which is well on its way to becoming a multibillion-dollar business to bring AI to Ethernet. And so, the fact that we could build -- we have access to all of this, we have one architectural stack, as you know, it allows us to introduce new capabilities to the market as we complete it.
+
+Otherwise, what happens, you ship these parts, you go find customers to sell it to, and then you've got to build -- somebody's got to build up an AI factory, and the AI factory has got a mountain of software. And so, it's not about who integrates it. We love the fact that our supply chain is disintegrated in the sense that we could service Quanta, Foxconn, HP, Dell, Lenovo, Super Micro. We used to be able to serve ZTE.
+
+They were recently purchased and so on and so forth. And so, the number of ecosystem partners that we have, Gigabyte, the number of ecosystem partners that we have that allows them to take our architecture, which all works, but integrated in a bespoke way into all of the world's cloud service providers, enterprise data centers, the scale and reach necessary from our ODMs and our integrators, integrated supply chain, is vast and gigantic because the world is huge. And so, that part, we don't want to do and we're not good at doing. And -- but we know how to design the AI infrastructure, provided the way that customers would like it and lets the ecosystem integrate it.
+
+Well, yes. So, anyways, that's the reason why.
+
+Operator
+
+And your final question comes from the line of Aaron Rakers with Wells Fargo. Your line is open.
+
+Aaron Rakers -- Analyst
+
+Yes. Thanks for taking the question. I wanted to go back into the Blackwell product cycle. One of the questions that we tend to get asked is how you see the rack scale system mix dynamic as you think about leveraging NVLink, you think about GB NVL72 and how that go-to-market dynamic looks as far as the Blackwell product cycle.
+
+I guess to put it simply, how do you see that mix of rack scale systems as we start to think about the Blackwell cycle playing out?
+
+Jensen Huang -- President and Chief Executive Officer
+
+Yeah. Aaron, thanks. The Blackwell rack system, it's designed and architected as a rack but it's sold in disaggregated system components. We don't sell the whole rack.
+
+And the reason for that is because everybody's rack's a little different surprisingly. Some of them are OCP standards, some of them are not. Some of them are enterprise. And the power limits for everybody could be a little different.
+
+Choice of CDUs, the choice of power bus bars, the configuration and integration into people's data centers, all different. And so, the way we designed it, we architected the whole rack. The software is going to work perfectly across the whole rack. And then we provide the system components.
+
+Like for example, the CPU and GPU compute board is then integrated into an MGX. It's a modular system architecture. MGX is completely ingenious. And we have MGX ODMs and integrators and OEMs all over the plant.
+
+And so, just about any configuration you would like, where you would like that 3,000-pound rack to be delivered, it's got to be close to. It has to be integrated and assembled close to the data center because it's fairly heavy. And so everything from the supply chain from the moment that we ship the GPU, CPUs, the switches, the NICs, from that point forward, the integration is done quite close to the location of the CSPs and the locations of the data centers. And so, you can imagine how many data centers in the world there are and how many logistics hubs we've scaled out to with our ODM partners.
+
+And so, I think because we show it as one rack and because it's always rendered that way and shown that way, we might have left the impression that we're doing the integration. Our customers hate that we do integration. The supply chain hates us doing integration. They want to do the integration.
+
+That's their value-add. There's a final design-in, if you will. It's not quite as simple as shimmy into a data center but the design fit-in is really complicated. And so, the design fit-in, the installation, the bring-up, the repair and replace, that entire cycle is done all over the world.
+
+And we have a sprawling network of ODM and OEM partners that does this incredibly well. So, integration is not the reason why we're doing racks. It's the anti-reason of doing it. The way we don't want to be an integrator, we want to be a technology provider.
+
+Operator
+
+And I will now turn the call back over to Jensen Huang for closing remarks.
+
+Jensen Huang -- President and Chief Executive Officer
+
+Thank you. Let me make a couple more -- make a couple of comments that I made earlier again. The data center worldwide are in full steam to modernize the entire computing stack with accelerated computing and generative AI. Hopper demand remains strong and the anticipation for Blackwell is incredible.
+
+Let me highlight the top five things, the top five things of our company. Accelerated computing has reached the tipping point. CPU scaling slows. Developers must accelerate everything possible.
+
+Accelerated computing starts with CUDA-X libraries. New libraries open new markets for NVIDIA. We released many new libraries, including CUDA-X Accelerated Polars, Pandas, and Spark, the leading data science and data processing libraries, CUVI-S for vector databases. This is incredibly hot right now.
+
+Ariel and for 5G wireless base station, a whole suite of a whole world of data centers that we can go into now. Parabricks for gene sequencing and AlphaFold2 for protein structure prediction is now CUDA accelerated. We are at the beginning of our journey to modernize $1 trillion worth of data centers from general-purpose computing to accelerated computing. That's number one.
+
+Number two, Blackwall is a step-function leap over Hopper. Blackwell is an AI infrastructure platform, not just the GPU. Also happens to be the name of our GPU but it's an AI infrastructure platform. As we reveal more of Blackwell and sample systems to our partners and customers, the extent of Blackwell's lead becomes clear.
+
+The Blackwell vision took nearly five years and seven one-of-a-kind chips to realize, the Gray CPU, the Blackwell dual GPU, and a colos package, ConnectX DPU for East-West traffic, BlueField DPU for North-South and storage traffic, NVLink switch for all-to-all GPU communications, and Quantum and Spectrum-X for both InfiniBand and Ethernet can support the massive traffic of AI. Blackwell AI factories are building-size computers. NVIDIA designed and optimized the Blackwell platform, full stack end to end, from chips, systems, networking, even structured cables, power and cooling, and mounds of software to make it fast for customers to build AI factories. These are very capital-intensive infrastructures.
+
+Customers want to deploy it as soon as they get their hands on the equipment and deliver the best performance and TCO. Blackwell provides three to five times more AI throughput in a power-limited data center than Hopper. The third is NVLink. This is a very big deal with its all-to-all GPU switch is game-changing.
+
+The Blackwell system lets us connect 144 GPUs in 72 GB200 packages into one NVLink domain, with an aggregate NVLink bandwidth of 259 terabytes per second in one rack. Just to put that in perspective, that's about 10x higher than Hopper. 259 terabytes per second kind of makes sense because you need to boost the training of multitrillion-parameter models on trillions of tokens. And so, that natural amount of data needs to be moved around from GPU to GPU.
+
+For inference, NVLink is vital for low-latency, high-throughput large language model token generation. We now have three networking platforms, NVLink for GPU scale-up, Quantum InfiniBand for supercomputing and dedicated AI factories, and Spectrum-X for AI on Ethernet. NVIDIA's networking footprint is much bigger than before. Generative AI momentum is accelerating.
+
+Generative AI frontier model makers are racing to scale to the next AI plateau to increase model safety and IQ. We're also scaling to understand more modalities from text, images, and video to 3D physics, chemistry, and biology. Chatbots, coding AIs, and image generators are growing fast but it's just the tip of the iceberg. Internet services are deploying generative AI for large-scale recommenders, ad targeting, and search systems.
+
+AI start-ups are consuming tens of billions of dollars yearly of CSP's cloud capacity, and countries are recognizing the importance of AI and investing in sovereign AI infrastructure. And NVIDIA AI, NVIDIA Omniverse is opening up the next era of AI, general robotics. And now the enterprise AI wave has started, and we're poised to help companies transform their businesses. The NVIDIA AI Enterprise platform consists of Nemo, NIMs, NIM Agent Blueprints, and AI Foundry that our ecosystem partners, the world-leading IT companies used to help companies customize AI models and build bespoke AI applications.
+
+Enterprises can then deploy on NVIDIA AI Enterprise run time, and at $4,500 per GPU per year, NVIDIA AI Enterprise is an exceptional value for deploying AI anywhere. And for NVIDIA software, TAM can be significant as the CUDA-compatible GPU installed base grows from millions to tens of millions. And as Colette mentioned, NVIDIA software will exit the year at a $2 billion run rate. Thank you all for joining us today.
+
+Operator
+
+[Operator signoff]
+
+Duration: 0 minutes
+Call participants:
+
+Stewart Stecker -- Senior Director, Investor Relations
+
+Colette M. Kress -- Chief Financial Officer, Executive Vice President
+
+Vivek Arya -- Analyst
+
+Jensen Huang -- President and Chief Executive Officer
+
+Toshiya Hari -- Analyst
+
+Colette Kress -- Chief Financial Officer, Executive Vice President
+
+Joe Moore -- Analyst
+
+Matt Ramsay -- Analyst
+
+Timothy Arcuri -- Analyst
+
+Stacy Rasgon -- Analyst
+
+Ben Reitzes -- Melius Research -- Analyst
+
+C.J. Muse -- Analyst
+
+Aaron Rakers -- Analyst
+
+More NVDA analysis
+
+All earnings call transcripts
+
+Stocks Mentioned
+Nvidia Stock Quote
+Nvidia
+$178.73 (0.01%) $1.91
+
+Motley Fool Stock Advisor's Latest Pick
+Get Access
+982% Avg Return*
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+
+Related Articles
+best quantum computing stocks ionq rgti qbts ibm goog
+Quantum Computing Stocks: How the Quantum Computing Players Stack Up by Patents (Yes, Nvidia Has Such Patents)
+GettyImages-1146642361-7360x4912-13a0741
+Understanding Michael Burry's Bet Against AI: Here's What it Really Means for Investors
+nvidia headquarters with nvidia sign in front (1)
+If You'd Invested $10 Million in Nvidia Stock 10 Years Ago, Here's the Shocking Amount You'd Have Today
+Getty -- happy colleagues
+The Best Stocks to Invest $50,000 in Right Now
+nvidia headquarters with grey nvidia sign in front with nvidia logo
+A Trump Policy Pivot Could Hand Nvidia Billions in AI Chip Sales -- If It Happens
+
+Motley Fool Returns
+Motley Fool Stock Advisor
+
+Market-beating stocks from our flagship service.
+Stock Advisor Returns
+982%
+188%
+
+Calculated by average return of all stock recommendations since inception of the Stock Advisor service in February of 2002. Returns as of 11/22/2025.
+
+Discounted offers are only available to new members. Stock Advisor list price is $199 per year.
+
+Join Stock Advisor ›
+Premium Investing Services
+
+View Premium Services
+
+Making the world smarter, happier, and richer.
+
+Facebook
+
+Twitter
+LinkedIn
+Pinterest
+YouTube
+Instagram
+TikTok
+
+Market data powered by Xignite and Polygon.io.
+
+About Us
+Careers
+Research
+Newsroom
+Contact
+Advertise
+
+Our Services
+
+All Services
+Stock Advisor
+Epic
+Epic Plus
+Fool Portfolios
+Fool One
+Motley Fool Money
+
+Around the Globe
+
+Fool UK
+Fool Australia
+Fool Canada
+
+Free Tools
+
+CAPS Stock Ratings
+Discussion Boards
+Calculators
+Financial Dictionary
+
+Affiliates & Friends
+
+Motley Fool Asset Management
+Motley Fool Wealth Management
+Motley Fool Ventures
+Fool Community Foundation
+Become an Affiliate Partner
+
+Disclosure Policy
+Accessibility Policy
+Copyright, Trademark and Patent Information
+Terms and Conditions
+Do Not Sell My Personal Information
+
+Third Quarter 2025 Results Conference Call
+October 29th, 2025
+Kenneth Dorell, Director, Investor Relations
+Thank you. Good afternoon and welcome to Meta’s third quarter 2025 earnings conference call.
+Joining me today are Mark Zuckerberg, CEO and Susan Li, CFO.
+Our remarks today will include forward‐looking statements, which are based on assumptions as of
+today. Actual results may differ materially as a result of various factors including those set forth in
+today’s earnings press release, and in our quarterly report on Form 10-Q filed with the SEC. We
+undertake no obligation to update any forward-looking statement.
+During this call we will present both GAAP and certain non‐GAAP financial measures. A
+reconciliation of GAAP to non‐GAAP measures is included in today’s earnings press release. The
+earnings press release and an accompanying investor presentation are available on our website at
+investor.atmeta.com.
+And now, I’d like to turn the call over to Mark.
+Mark Zuckerberg, CEO
+Thanks Ken, and thanks everyone for joining today.
+We had another strong quarter -- with 3.5 billion people using at least one of our apps every day.
+Instagram hit a major milestone with 3 billion monthly actives. We're seeing good momentum
+across our other apps as well, including Threads which recently passed 150 million daily actives
+and remains on track to become the leader in its category.
+I'm very focused on establishing Meta as the leading frontier AI lab -- building personal
+superintelligence for everyone, and delivering the app experiences and computing devices that will
+improve the lives of billions of people around the world. Our approach of advancing open source AI
+means that when Meta innovates, everyone benefits.
+Meta Superintelligence Labs is off to a strong start. I think that we have already built the lab with
+the highest talent density in the industry. We're heads down developing our next generation of
+models and products, and I'm looking forward to sharing more on that front over the coming
+months. We're also building what we expect to be an industry-leading amount of compute.
+Now there's a range of timelines for when people think that we’re going to get superintelligence.
+Some people think that we’ll get there in a few years, others think it'll be 5, 7 years, or longer. I
+think it's the right strategy to aggressively front-load building capacity so that way we're prepared
+for the most optimistic cases. That way, if superintelligence arrives sooner, we will be ideally
+positioned for a generational paradigm shift and many large opportunities. If it takes longer, then
+we'll use the extra compute to accelerate our core business -- which continues to be able to
+profitably use much more compute than we’ve been able to throw at it. And we’re seeing very high
+demand for additional compute both internally and externally. And in the worst case, we would
+just slow building new infrastructure for some period while we grow into what we build.
+The upside is extremely high for both our existing apps and new products and businesses that are
+becoming possible to build.
+Across Facebook, Instagram, and Threads, our AI recommendation systems are delivering higher
+quality and more relevant content, which led to 5% more time spent on Facebook in Q3 and 10%
+on Threads. Video is a particular bright spot, with video time spent on Instagram up more than
+30% since last year. As video continues to grow across our apps, Reels now has an annual run rate
+of over $50 billion.
+Improvements in our recommendation systems will also become even more leveraged as the
+volume of AI-created content grows. Social media has gone through two eras so far. First was
+when all content was from friends, family, and accounts that you followed directly. The second
+was when we added all the creator content. Now, as AI makes it easier to create and remix
+content, we're going to add yet another huge corpus of content on top of those. Recommendation
+systems that understand all of this content more deeply and can show you the right content to
+help you achieve your goals are going to be increasingly valuable.
+Our ads business continues to perform very well, largely due to improvements in our AI ranking
+systems as well. This quarter, we saw meaningful advances from unifying different models into
+simpler, more general models -- which drive both better performance and efficiency. And now the
+annual run-rate going through our completely end-to-end AI-powered ad tools has passed $60
+billion.
+One way that I think about our company overall is that there are three giant transformers that run
+Facebook, Instagram, and ads recommendations. We have a very strong pipeline of lots of ways to
+improve these models by incorporating new AI advances and capabilities. And at the same time,
+we're also working on combining these three major AI systems into a single unified AI system that
+will effectively run our family of apps and business -- using increasing intelligence to improve the
+trillions of recommendations that it will make for people every day.
+I'm also very excited about the new products that we're going to be able to build.
+More than a billion monthly actives already use Meta AI, and we see usage increase as we improve
+our underlying models. I'm very excited to get a frontier model into Meta AI and I think that the
+opportunity there is very large.
+The same goes for our Business AI. Every day, people have more than 1 billion active threads with
+business accounts across our messaging platforms -- ranging from product questions to customer
+support. Our Business AIs will enable tens of millions of businesses to scale these conversations
+and improve their sales at low cost. The better our models get, the better this is going to work for
+all businesses.
+This quarter we also launched Vibes, which is the next generation of our AI creation tools and
+content experiences. Retention is looking good so far and its usage keeps growing quickly week
+over week. I'm looking forward to ramping up the growth of Vibes over the coming months.
+More broadly, I think that Vibes is an example of a new content type enabled by AI, and I think that
+there are more opportunities to build many more novel types of content ahead as well. As our new
+models become ready, I'm looking forward to starting to show everyone some of the new kinds of
+products we're working on.
+At Connect, we announced our 2025 line of AI glasses, and the response so far has been great.
+The new Ray-Ban Meta glasses and Oakley Meta Vanguards are both selling well as people love
+the improved battery life, camera resolution, new AI capabilities, and the great design. And there's
+our new Meta Ray-Ban Display glasses -- our first glasses with a high-resolution display and the
+Meta Neural Band to interact with them. They sold out in almost every store within 48 hours, with
+demo slots fully booked through the end of next month. So we're going to have to invest in
+increasing manufacturing and selling more of those. This is an area where we're clearly leading and
+have a huge opportunity ahead.
+Taking a step back, if we deliver even a fraction of the opportunity ahead for our existing apps and
+the new experiences that are possible, then I think that the next few years will be the most
+exciting period in our history.
+We've got a lot to do. But we're making real progress, delivering strong business results, building
+the talent density and infrastructure needed for the next era, and leading the way on AI devices
+that will define the next computing platform. I'm proud of how our teams are rising to the
+challenge, and I'm grateful for their dedication, hard work, and creativity. As always, thank you all
+for being a part of this journey with us.
+And now, here's Susan.
+Susan Li, CFO
+Thanks Mark and good afternoon everyone.
+Let’s begin with our segment results. All comparisons are on a year-over-year basis unless
+otherwise noted.
+Our community across the Family of Apps continues to grow, and we estimate more than 3.5
+billion people used at least one of our Family of Apps on a daily basis in September.
+Q3 Total Family of Apps revenue was $50.8 billion, up 26% year over year.
+Q3 Family of Apps ad revenue was $50.1 billion, up 26% or 25% on a constant currency basis.
+In Q3, the total number of ad impressions served across our services increased 14%. Impression
+growth was healthy across all regions, driven by engagement and user growth, particularly on
+video surfaces. The average price per ad increased 10% year-over-year, benefiting from increased
+advertiser demand, largely driven by improved ad performance. This was partially offset by
+impression growth, particularly from lower-monetizing regions and surfaces.
+Family of Apps other revenue was $690 million, up 59%, driven by WhatsApp paid messaging
+revenue growth as well as Meta Verified subscriptions.
+Within our Reality Labs segment, Q3 revenue was $470 million, up 74% year-over-year. The
+significant year-over-year growth in Q3 was partly due to retail partners stocking up on Quest
+headsets ahead of the holiday season. We did not have a similar benefit in the third quarter of last
+year since our Quest 3S headset launched in the fourth quarter of 2024. Aside from this, strong AI
+glasses revenue also contributed to revenue growth in Q3.
+Moving now to our consolidated results.
+Q3 total revenue was $51.2 billion, up 26% or 25% on a constant currency basis.
+Q3 total expenses were $30.7 billion, up 32% compared to last year. Year-over-year expense
+growth accelerated 20 percentage points from Q2 due primarily to three factors:
+First, legal-related expense growth was higher than in Q2, due to charges we recorded in the third
+quarter, as well as us lapping a period of accrual reversals in the third quarter a year ago.
+Second, employee compensation growth accelerated, driven by technical hires, particularly AI
+talent.
+Finally, growth in infrastructure costs accelerated, due to increased infrastructure operating costs
+associated with our expanded data center fleet, depreciation on our incremental capex spend, and
+third party cloud spend.
+We ended Q3 with over 78,400 employees, up 8% year-over-year, driven by hiring in priority areas
+of monetization, infrastructure, Reality Labs, Meta Superintelligence Labs, as well as regulation
+and compliance.
+Third quarter operating income was $20.5 billion, representing a 40% operating margin.
+Q3 interest and other income was $1.1 billion, driven primarily by unrealized gains on our
+marketable equity securities.
+Our tax rate for the quarter was 87%, which was unfavorably impacted by a one-time, non-cash
+reduction in deferred tax assets that we no longer anticipate using under new US tax law. Our tax
+rate would have been 14% excluding this charge. Although the transition to the new US tax law
+resulted in an accounting charge in the third quarter, we continue to expect we will recognize
+significant cash tax savings for the remainder of the current year and future years under the new
+law, and this quarter's charge reflects the total expected impact from the transition to the new US
+tax law.
+Net income was $2.7 billion or $1.05 per share. Excluding the one-time tax charge, our net income
+and EPS would have been $18.6 billion and $7.25 per share, respectively.
+Capital expenditures, including principal payments on finance leases, were $19.4 billion, driven by
+investments in servers, data centers and network infrastructure.
+Free cash flow was $10.6 billion. We repurchased $3.2 billion of our Class A common stock and
+paid $1.3 billion in dividends to shareholders. We ended the quarter with $44.4 billion in cash and
+marketable securities and $28.8 billion in debt.
+Turning now to the business outlook. There are two primary factors that drive our revenue
+performance: our ability to deliver engaging experiences for our community, and our effectiveness
+at monetizing that engagement over time.
+On the first, daily actives continue to grow year-over-year across Facebook, Instagram and
+WhatsApp.
+We’re continuing to see improvements to our products and recommendations drive incremental
+engagement, with year-over-year growth in global time spent accelerating on both Facebook and
+Instagram in Q3. In the US, overall time spent on Facebook and Instagram grew double digits year-
+over-year, driven by continued video strength as well as healthy growth in non-video time on
+Facebook.
+The engagement gains continue to be driven by product work and ongoing improvements to our
+recommendation systems as we optimize our model architectures, implement advanced modeling
+techniques, and integrate more signals about people’s interests. We also continue to focus on
+increasing the freshness of recommended content. On Facebook, our systems are now surfacing
+twice as many Reels published that day than at the start of the year.
+Looking to 2026, we expect to advance our recommendation systems across several dimensions.
+On Instagram, one focus is evolving our systems to surface content across a broader set of topics
+that cater to the diverse interests of each person. This follows a similar approach we’ve
+implemented on Facebook that has driven good results.
+We also expect to make significant progress on our longer-term ranking innovations in 2026. We
+are seeing promising results from our research efforts to create foundational ranking models and
+expect the new model innovations we’re developing as part of this will enable us to significantly
+scale up the amount of data and compute we use to train our recommendation models in 2026,
+yielding more relevant recommendations.
+Another large focus next year is leveraging LLMs to improve content understanding. We expect
+this is going to enable our systems to more precisely label the keywords and topics within videos
+and posts, which will allow our systems to both develop deeper intuition about a person’s
+interests and retrieve the content that matches them.
+Finally, we’re making good progress with Meta AI and Threads.
+The number of people using Meta AI across our family of apps continues to grow and we’re
+increasingly leveraging first party content into Meta AI results, with the majority of Meta AI’s
+responses to Facebook Deep Dive queries in the US now showing related Reels. We’re also seeing
+a lot of traction with media generation. People have created over 20 billion images using our
+products, and since launching Vibes within Meta AI in September, we've seen media generation in
+the app increase more than tenfold.
+On Threads, we’re seeing strong growth in both daily actives and the depth of engagement as we
+continue to improve recommendations. The ranking optimizations we made in Q3 alone drove a
+10% increase in time spent on Threads. We also continue to ship new features, including launching
+direct messaging in Q3 so anyone on Threads can now message one another within the app.
+Now to the second driver of our revenue performance: increasing monetization efficiency.
+The first part of this work is optimizing the level of ads within organic engagement.
+We continue to refine ad supply across each of our major surfaces within Facebook and Instagram
+to better deliver ads at the time and place they are most relevant to people. Longer-term, we have
+exciting ads supply opportunities on both Threads and WhatsApp Status. Ads are now running
+globally in Feed on Threads, and we’re following our typical monetization playbook of optimizing
+the ads formats and performance before we ramp supply. Within WhatsApp Status, we are
+continuing to gradually introduce ads and expect to complete the roll out next year.
+The second part of increasing monetization efficiency is improving marketing performance.
+Advancing our ads systems remains a critical aspect of this work, and we are driving performance
+gains through ongoing improvements in our larger-scale ads ranking models.
+For example, we continue to broaden the adoption of Lattice, our unified model architecture. In
+Q3 we rolled out Lattice to app ads, which drove a nearly 3% gain in conversions for that objective.
+Since introducing Lattice back in 2023 along with other back-end improvements, we have now cut
+the number of ads ranking and recommendation models by approximately one hundred as we
+consolidated smaller and more specialized models into larger ones that use the Lattice
+architecture to generalize learnings across surfaces and objectives. We continue to observe
+performance improvements as we combine models, and expect to drive additional gains as we
+consolidate another two hundred models over the coming years into a smaller number of highly
+capable models.
+In addition to advancing our foundational ads models, we’re innovating on our run-time models we
+use downstream of them for ads inference. For example, we began piloting a new run-time ads
+ranking model in Q3 that leverages more compute and data than our prior models to select more
+relevant ads. In testing, we’ve seen this new model drive a more than 2% lift in conversions on
+Instagram.
+We also significantly improved performance of Andromeda in Q3 by combining models across
+retrieval and early stage ranking into a single model, driving a 14% increase in ads quality on
+Facebook surfaces.
+Within our ads products, we’re seeing continued momentum with Advantage+. In Q3, we
+completed the roll out of our streamlined campaign creation flow for Advantage+ Lead
+campaigns, so now advertisers running sales, app or lead campaigns have end-to-end automation
+turned on from the beginning, allowing our systems to look across our platform to optimize
+performance by automatically choosing criteria like who to show the ads to and where to show
+them. The annual run-rate of revenue running through our end-to-end automated solutions has
+now reached $60 billion following the implementation of the new streamlined creation flow as we
+continue to see more advertisers leverage the performance benefits of our solutions.
+Within our Advantage+ creative suite, the number of advertisers using at least one of our video
+generation features was up 20% versus the prior quarter as adoption of image animation and
+video expansion continues to scale. We’ve also added more generative AI features to make it
+easier for advertisers to optimize their ad creatives and drive increased performance. In Q3, we
+introduced AI-generated music so advertisers can have music generated for their ad that aligns
+with the tone and message of the creative.
+Finally, business messaging remains a significant opportunity for us. We’re seeing strong growth
+across our portfolio of solutions, including with click-to-WhatsApp ads, which grew revenue 60%
+year-over-year in Q3. We’re also making good progress on our Business AI efforts, where we’ve
+been focused on building a turnkey AI that helps businesses generate leads and drive sales. We’ve
+been opening access in recent months to more businesses within our initial test markets, the
+Philippines and Mexico, and have seen strong usage, with millions of conversations between
+people and Business AIs taking place since July. This month, we expanded availability within
+WhatsApp and Messenger to all eligible businesses in Mexico and the Philippines, respectively. In
+the US, we’re also starting to roll out the ability for merchants to add their Business AIs to their
+website so we can support the full sale funnel from ad to purchase.
+Next, I would like to discuss our approach to capital allocation.
+Our primary focus is deploying capital to support the company’s highest order priorities, including
+developing leading AI products, models, and business solutions. As we make significant
+investments in infrastructure to support this work, we are focused on preserving maximum long-
+term flexibility to ensure we can meet our future capacity needs while also being able to respond
+to how the market develops in the years ahead.
+We’re doing so in several ways, including staging data center sites so we can spring up capacity
+quickly in future years as we need it, as well as establishing strategic partnerships that give us
+option value for future compute needs. The strong financial position and cash generation of our
+business enable us to make these investments while also accessing additional pools of cost
+efficient capital.
+Moving to our financial outlook. We expect fourth quarter 2025 total revenue to be in the range of
+$56-59 billion. Our guidance assumes foreign currency is an approximately 1% tailwind to year-
+over-year total revenue growth, based on current exchange rates. Our outlook reflects an
+expectation for continued strong ad revenue growth, partially offset by lower year-over-year
+Reality Labs revenue in Q4. The anticipated reduction in Reality Labs revenue is due to us lapping
+the introduction of Quest 3S in Q4 of last year as well as retail partners procuring Quest headsets
+during Q3 of this year to prepare for the holiday season, which were recorded as revenue in the
+third quarter.
+Turning to the expense and capex outlooks. I’ll first start with 2025 before providing some
+commentary on our planning for 2026.
+We expect full year 2025 total expenses to be in the range of $116-118 billion, updated from our
+prior outlook of $114-118 billion and reflecting a growth rate of 22-24% year-over-year.
+We currently expect 2025 capital expenditures, including principal payments on finance leases, to
+be in the range of $70-72 billion, increased from our prior outlook of $66-72 billion.
+On to tax. Absent any changes to our tax landscape, we expect our fourth quarter 2025 tax rate to
+be 12-15%.
+Turning now to 2026.
+We are at an exciting point for our company, where we have continued runway to improve our core
+services today as well as the opportunity to build new AI-powered experiences and services that
+will transform how people engage with our products in the future. We expect the set of
+investments we’re making within our ads and organic engagement initiatives next year will enable
+us to continue to deliver strong revenue growth in 2026, while our progress on AI models and
+products will position us to capitalize on new revenue opportunities in the years to come.
+A central requirement to realizing these opportunities is infrastructure capacity. As we have begun
+to plan for next year, it’s become clear that our compute needs have continued to expand
+meaningfully, including versus our own expectations last quarter. We are still working through our
+capacity plans for next year, but we expect to invest aggressively to meet these needs both by
+building our own infrastructure and contracting with third party cloud providers. We anticipate
+this will provide further upward pressure on our capex and expense plans next year.
+As a result, our current expectation is that capex dollar growth will be notably larger in 2026 than
+2025. We also anticipate total expenses will grow at a significantly faster percentage rate in 2026
+than 2025, with growth driven primarily by infrastructure costs, including incremental cloud
+expenses and depreciation. Employee compensation costs will be the second largest contributor
+to growth, as we recognize a full year of compensation for employees hired throughout 2025,
+particularly AI talent, and add technical talent in priority areas.
+Finally, we continue to monitor active legal and regulatory matters, including the increasing
+headwinds in the EU and the US that could significantly impact our business and financial results.
+For example, in the EU, we continue to engage constructively with the European Commission on
+our Less Personalized Ads offering. However, we cannot rule out the Commission imposing
+further changes to that offering that could have a significant negative impact on our European
+revenue, as early as this quarter. In the US, a number of youth-related trials are scheduled for
+2026, and may ultimately result in a material loss.
+In closing, this was another good quarter for our business. We have an exciting set of
+opportunities to continue improving our core business while delivering innovative new
+experiences and services for the people and businesses using our products in the years to come.
+With that, Krista, let’s open up the call for questions.
+Operator: Thank you. We will now open the line for a question and answer session. To ask
+a question, please press star one on your touchtone phone. To withdraw your
+question again, press star one. Please limit yourself to one question. Please
+pick up your handset before asking your question to ensure clarity. If you are
+streaming today’s call, please mute your computer speakers. And your first
+question comes from the line of Brian Nowak with Morgan Stanley. Please go
+ahead.
+Brian Nowak: Thanks for taking my questions. I have two for Susan. The first one, Susan, so
+the pipeline for core improvements to come in ‘26 with models and ad ranking
+models and more types of compute seems very exciting, and the infrastructure
+build seems sizable behind that.
+So can you help us a little understand some of the early quantifiable signals
+you’re seeing on A/B tests from some of these improvements to come that
+sort of make you most excited and give you confidence you’re going to get
+ROIC from all this CapEx. That’s the first one. Second one’s a little faster. How
+large is the Reality Labs revenue headwind in the 4Q guidance? Thanks.
+Susan Li: Thanks Brian for the question. I think your first question had a couple parts to
+it, so I’m going to try to disaggregate those parts, and let me know if this -- if
+this addresses what you’re getting to. I will say that the growth in 2026 CapEx
+relative to 2025 comes from growth in each of the core areas, MSL, core AI, as
+well as non-AI spend.
+So all of those areas are growing, but the MSL AI needs are growing the most.
+In terms of the core AI pipeline, I think we talked about -- last year when we
+were going into the 2025 budget process, we had a roadmap of resource
+investments across both headcount and compute that we thought would pay
+off in 2026.
+And it’s really a very broad range of sort of different ads ranking and
+performance efforts. And we’re continuing to see that those have paid off
+through the course of the year. There is a long list of specific efforts, but one of
+the measures that we look at to monitor this is, how are we driving ad
+performance?
+How are conversions growing? Conversions is a complex metric for us because
+advertisers optimize for so many different conversions with different values.
+But when we control for that and look at value weighted conversion rates,
+we’re seeing very strong year-over-year growth and conversions -- weighted
+conversions continue to grow faster than impressions.
+We also talked about some of the new model architecture over the course of
+the year and the degree to which the new model architecture is enabling us also
+to take advantage of having more data and more compute to drive ads
+performance.
+So we expect that that’s going to be a continued story in 2026. We are in fact
+at the beginning of our 2026 budgeting process now, and we see a similar list
+of revenue investments, that we -- that we’re excited to be able to invest in.
+And so we think that that’s going to be a big part of our ability to continue to
+drive strong revenue performance throughout the year. On your second
+question, which is the Reality Labs revenue headwind, I don’t think we have
+quantified the exact size of that.
+We expect that Q4 Reality Labs revenue will be lower than last year for a
+couple reasons that I alluded to. The biggest factor is we’re lapping the
+introduction of Quest 3S in Q4 of last year and we don’t have a new headset in
+the market this year.
+We also recorded all of our holiday related Quest 3S sales in Q4‘24, since the
+headset was launched in October ’24. This year, we’re recognizing some of
+those Quest 3S sales in Q3 as retail partners have procured Quest headsets in
+advance of the holiday season.
+We’re still expecting significant year-over-year growth in AI glasses revenue in
+Q4, as we benefit from strong demand for the recent products that we’ve
+introduced, but that is more than offset by the headwinds to the Quest
+headsets.
+Operator: Your next question comes from the line of Doug Anmuth with JP Morgan.
+Please go ahead.
+Doug Anmuth: Great. Thanks for taking the question. I appreciate the strategy to front load
+capacity for Superintelligence. Can you just talk about your thought process in
+kind of triangulating the CapEx dollar growth and the significantly faster
+expense growth next year with core growth in the business, and then the
+impact on earnings and free cash flow? And do you have targets that we should
+be thinking about for cash on hand or net cash overall? Thanks.
+Susan Li: Thanks Doug. We’re, right now, I would say in the process of -- relatively early,
+actually, still in the process of putting together our budget for 2026. And it is
+on the capacity side, a particularly dynamic process.
+We’re certainly seeing that we wish we had more capacity today than we do.
+We would be able to put it towards good use, certain not only would the MSL
+team appreciate having more capacity, but we’d be able to put it towards good
+and ROI positive use in the core business as well.
+So we’re really trying to plan ahead not only to ensure that we have the
+capacity we need in 2026, but also to give ourselves the sort of flexibility and
+option value to have the capacity that we think we could need in ‘27 and ‘28. So
+that said, there are lots of moving pieces in the budget. It’s not baked yet.
+It’s still sort of in the process of coming together. We don’t have specific
+targets to share, but we do feel like our strategic priority is really making sure
+that we have the compute that we need to be well positioned to succeed at AI.
+And that’s sort of the foremost priority as we’re putting together the budget.
+Mark Zuckerberg: Yes. I mean, I’ll add a few thoughts on this too, although I mean, as Susan said,
+we’re still working through the actual budget and I think we’ll typically have
+more to share on that early next year.
+But to date, we keep on seeing this pattern where we build some amount of
+infrastructure to what we think is an aggressive assumption and then we keep
+on having more demand to be able to use more compute, especially in the core
+business in ways that we think would be quite profitable than we end up having
+compute for.
+So I think that that suggests that being able to make a significantly larger
+investment here is very likely to be a profitable thing over some period,
+because if the primary use of it is going to be to accelerate the AI research and
+the new AI work that we’re doing and how that relates to both the core
+business and new products, but any compute that we don’t need for that, we
+feel pretty good that we’re going to be able to absorb a very large amount of
+that to just convert into more intelligence and better recommendations in our
+Family of Apps and ads in a profitable way.
+Now, I mean, it’s of course possible to overshoot that, right. If we do, I mean,
+this is what I mentioned in my comments then we see that there’s just a lot of
+demand for other new things that we build internally, externally. Like almost
+every week, people come to us from outside the company asking us to stand up
+an API service or asking if we have different compute that they could get from
+us.
+And we haven’t done that yet, but obviously if you got to a point where you
+overbuilt, you could have that as an option. And then, the kind of very worst
+case would be that we effectively have just prebuilt for a couple of years, in
+which case of course there would be some loss and depreciation, but we’d
+grow into that and use it over time.
+So my view on this is that rather than continuing to be constrained on CapEx
+and feeling in the core business, like we have significant investments that we
+could make that we’re not able to make that would be profitable, that the right
+thing to do is to try to accelerate this to make sure that we have the compute
+that we need, both for the AI research and new things that we’re doing, and to
+try to get to a different state on our compute stance on the core business.
+So that’s kind of how I’m thinking about that overall. Of course there’s a lot of
+operational constraints too on what one can build, right? So, we’re basically
+trying to work through this all, and I think we’ll have more to share in the
+coming months and over the course of next year, but I think that there’s just a
+huge, huge amount of opportunities ahead here.
+Operator: Your next question comes from the line of Eric Sheridan with Goldman Sachs.
+Please go ahead.
+Eric Sheridan: Thanks so much for taking the question. Mark, wanted to reflect on some of
+your comments with respect to scaling towards superintelligence and bringing
+it back to consumer AI. Maybe reflect a little bit on the signals you’ve gotten on
+the way consumers across Family of Apps interact with Meta AI today, and
+how you think about scaling and exiting models from the superintelligence
+effort might change the utility and behavior around Meta AI in the years ahead.
+Thanks.
+Mark Zuckerberg: Yeah, I mean, a lot of people use Meta AI today. I mean, as I said in my
+comments up front, there’s more than a billion people who use it on a monthly
+basis. And what we see is that, as we improve the quality of the model,
+primarily for post training Llama 4, at this point, we are -- we continue to see
+improvements in usage.
+So our view is that when we get the new models that we’re building in MSL in
+there and get like truly frontier models with novel capabilities that you don’t
+have in other places, then I think that this is just a massive latent opportunity,
+right?
+We know -- I mean, I would guess that Meta, I think has the best track record of
+any company out there of taking a new product that people love and getting it
+to billions of people in terms of usage.
+So I think that the ability to plug in leading models is going to, I would predict,
+lead to a very large amount of use of these things over the coming years. So I’m
+very excited about that in terms of new products. It’s not just Meta AI as an
+assistant.
+I think that there are going to be all kinds of new products around different
+content formats, and we’re starting to see that with video and content
+creation, but I think that there’s going to be a lot more like that that I’m quite
+excited about.
+And then there are the business versions of all these too, like business AI. And
+then, that’s, of course, one part of the story is the new things that will be
+possible to build. And then the other part is how more intelligent models are
+just going to improve the core business and improve the recommendations
+that we make across the Family of Apps and improve the recommendations in
+advertising.
+And I think that there’s just a, as we’ve shown, there’s sort of this very large
+amount of headroom and the opportunity there keeps growing as we are
+improving and optimizing the AI there. And I think that that really shows no
+sign of being near the end.
+I think that there’s quite a bit more to do there. And like I said in response to the
+last question, we are sort of perennially operating the Family of Apps and ads
+business in a compute-starved state at this point, which is on the one hand sort
+of an odd thing to say, given the compute that we built up.
+But we really are taking a lot of the resources and using them to advance future
+things that we’re doing. And we think that there’s a lot more compute that we
+could put towards these that would just unlock a huge amount of opportunity
+in the core business as well.
+Operator: Your next question comes from the line of Mark Shmulik with Bernstein. Please
+go ahead.
+Mark Shmulik: Yes, hi. Thanks for taking the questions. Susan, if you think about the visibility
+into kind of the runway next year of continued ad performance and
+engagement improvements, how do you think about kind of the scale of those
+improvements versus kind of the progress we’ve seen over the last two years?
+And then Mark, as you think about kind of the timing of some of these newer
+efforts coming out of Superintelligence Labs, is us anchoring to kind of an
+updated frontier model launch sometime next year like the right way for us to
+think about it, or should we be looking at kind of progress from new products
+you’re excited to see ship like Vibes? Thank you.
+Susan Li: Thanks Mark. So on the sort of ads improvement side, some of the innovations
+that we have been launching actually involve sort of improving our larger scale
+models. So we don’t use our larger model architectures like GEM for inference
+because their size and complexity would make it too cost prohibitive. The way
+that we drive performance from those models is by using them to transfer
+knowledge to smaller, lightweight models that are used at runtime.
+And then in addition to the foundation model work, we are working on
+advancing our inference models by developing new techniques and
+architectures that then allow us to scale up compute and complexity in an ROI
+positive way. So, in general, we obviously have a very large base of advertisers.
+There’s a lot of demand liquidity, in the system and even small scale
+improvements that we are able to make in terms of driving basis point
+improvements in the performance of ads or single digit increases in
+conversions relative to impressions in a given quarter off of a large base mean
+that we’re really able to continue to grow the absolute dollars of revenue
+growth in a pretty meaningful way.
+Operator: Your next question comes from the line of Justin Post with Bank of America.
+Please go ahead.
+Justin Post: Great. Thank you.
+Kenneth Dorell: Hey, Justin, just give us one second. I think there was a second part to Mark’s
+question that we just want to get to on MSL.
+Mark Zuckerberg: Yeah, I mean, I’ll keep it quick. I mean, I don’t think we have any specific timing
+to announce certainly on the models or products, but I expect that you will see
+both. We expect to build novel models and novel products, and I’m excited to
+share more when we have it.
+Operator: Justin, please go ahead.
+Justin Post: Great, thanks. So Mark, you mentioned the prior two content cycles, and
+obviously you’ve been able to generate very attractive margins on them. As we
+get into the AI cycle, obviously some concerns on the investment, but could
+you talk a little bit about how you’re thinking about tools, that could be coming
+out for users? I know there’s some new competition. And then secondly, how
+you think about margins in this content cycle, any reason to think they would
+be different versus prior cycles? Thank you.
+Mark Zuckerberg: I think it’s too early to really understand what the margins are going to be for
+the new products that we build. I mean, I think certainly every -- each product
+has somewhat different characteristics and I think we’ll kind of understand how
+that goes over time. I mean my general goal is to build a business that
+maximizes value for people who use our products and maximizes profitability,
+not margin. So I think we’ll kind of just try to build the best things that we can
+and try to deliver the most value that we can for most people.
+Operator: Your next question comes from the line of Ross Sandler with Barclays. Please
+go ahead.
+Ross Sandler: Great. Hey Mark, some of the goals for competing AI labs are around achieving
+AGI or these other milestones that are kind of like out there and a little esoteric.
+How are you setting up your new team in terms of achieving those types of
+goals versus products that can generate revenue for Meta kind of right out of
+the gate?
+And is the goal that you had articulated to us previously around giving billions
+of people kind of a personal AI to use still the direction of travel that you see, or
+is there other things like kind of this Vibes or Sora angle that you think are
+potentially important? How should we think about the overall direction? Thank
+you.
+Mark Zuckerberg: Sure. So the way that I think about this is that the research is going to enable
+new technological capabilities to exist, and then those capabilities can get built
+into all kinds of different products.
+So the ability to reason more intelligently is, for example, very important across
+a large number of things. It would be useful for an assistant. It will also be
+useful in business AI. It will also be useful in the AI agent that we’re building to
+help advertisers figure out what their campaigns are going to be.
+It will also have implications for eventually how we do ranking and
+recommendations of people’s feeds and make different decisions there. That’s
+just one example. I mean, certainly the capability to be able to produce very
+high quality good video is going to be useful for giving people new creative
+tools.
+It will help increase the amount of content inventory that can be shown in
+Instagram and Facebook and, therefore, should enable an increase in
+engagement there. It should help advertisers be able to create creative that will
+help us monetize better.
+So you can just go kind of down the list of capabilities that you’d expect. And I
+think each one will enable a bunch of different things. And I think the art of
+product development here is looking at the list of technology capabilities and
+figuring out what new products are going to be useful and prioritizing those.
+But fundamentally, I would sort of expect this exponential curve in new
+technology capabilities that are going to become available. And the other thing
+that I expect is that I think being the best in a given area will drive great returns
+rather than this is not like a check the box exercise of like, okay, we can
+generate some kind of content and someone else can. I think that like the
+company that is the best at each of these capabilities, I think, will get a large
+amount of the potential value for doing that.
+So there are lots of different capabilities to build. I’m not sure that any one
+company is going to be the best at all of them. I doubt that’s going to be the
+case, but a lot of what we’re trying to do is not kind of do some things that
+others have done. We’re really trying to build novel capabilities and I’m keeping
+this high level because I’m not -- I don’t want to necessarily from a competitive
+or strategic perspective get into what we’re prioritizing.
+But that hopefully gives you a sense of how we’re thinking about what we’re
+doing. We want to be able to kind of build novel things, build them into a lot of
+our products, and then have the compute to scale them to billions of people.
+And we think that that’s going to both show up in terms of new products, keep
+being possible, and new businesses and very significant improvements to the
+current business too.
+Operator: Your next question comes from the line of Mark Mahaney with Evercore ISI.
+Please go ahead.
+Mark Mahaney: Thanks. Could I just ask just a question on Meta AI and both the product and
+the monetization path? So when you look at it, what you’ve seen that’s most
+encouraging to you in terms of the adoption and the use of Meta AI, and then
+when you think about -- I know you generally like to roll out and then deepen
+engagement and then later think about monetization. Like where do you think
+you are on that path now? Is it clear to you what the monetization options are
+for Meta AI? Thank you very much.
+Mark Zuckerberg: I mean, I think the most promising thing that we’re seeing is one, that we’re
+able to build something that a large number of people use. And I think that
+that’s valuable. And then secondly, that as we -- there is a clear correlation as
+we improve the models in ways that we think make them better, that people
+use them more.
+So that shows that we have a runway to basically be able to improve
+engagement and turn this into a product that’s leading over time. In terms of
+where we are on this and we basically just did this huge effort to boot up Meta
+Superintelligence Labs and build what I am very proud of is, I think the highest
+talent density lab in the industry at this point.
+There are a lot of really great researchers and infrastructure folks and data folks
+who are now a part of this effort who are focused on training the next
+generation of work and doing some really novel work.
+And when that is ready, I think that we will be able to plug that into a number of
+the products that we’re building, and I think that that will be very exciting.
+But I think that that’s really the next thing that we’re looking at. And then from
+there, I think these models will also improve monetization in all of the different
+ways that we’ve talked about so far in terms of improving engagement,
+improving advertising, helping advertisers engage.
+I mean, there’s -- the one opportunity that we just usually talk about on these
+calls, but hasn’t come up as much here is just the ability to make it so that
+advertisers are increasingly just going to be able to give us a business objective
+and give us a credit card or bank account, and have the AI system basically
+figure out everything else that’s necessary, including generating video or
+different types of creative that might resonate with different people that are
+personalized in different ways, finding who the right customers are. All of the
+capabilities that we’re building, I think, go towards improving all of these
+different things. So I’m quite optimistic about that.
+Operator: Your next question comes from the line of Ronald Josey with Citi. Please go
+ahead.
+Ronald Josey: Great. Thanks for taking the question and this maybe dovetails perfectly off of,
+Mark, what you just talked about. We heard a lot about end-to-end automation
+here. I think we’ve seen a $60 billion ARR. Wanted to hear about, if you can talk
+to us more just about adoption rates amongst the advertisers, and then maybe
+bigger picture as you incorporate ranking recommendation changes like
+Andromeda or GEM or Lattice. Just talk to us how this automation is driving,
+call it a higher ROI for advertisers overall, as we bring it all together. Thank you.
+Susan Li: Yeah. So we’ve been sort of laying the continued brick by brick build of
+Advantage+ and extending the set of objectives that it applies to over time.
+And so in Q3, we completed the global rollout of the streamlined campaign
+creation flow for Advantage+ lead campaigns.
+So now advertisers who are running sales app or lead campaigns have end-to-
+end automation turned on from the beginning. And like the kind of application
+of the streamlined campaign creation flow for other objectives, this generally
+allows advertisers to optimize and automate several aspects of the campaign
+setup process at once.
+That includes things like audience selection, where to show the ad, how the
+budget gets placed and distributed across ad sets to just drive the most
+efficient outcomes. And we see that Advantage+ continues to drive
+performance gains, advertisers who run lead campaigns using Advantage+ are
+seeing a 14% lower cost per lead on average than those who are not.
+And I would say that we think that there is still a lot of opportunity, generally, to
+grow adoption of Advantage+. A lot of advertisers only use our end-to-end
+automated solutions for a portion of their campaigns, so we can grow share
+there, and to capture that opportunity we’re focused on driving continued
+performance improvements and addressing some of the key use cases that we
+still need in order to grow adoption.
+We’re also working to broaden adoption among advertisers who use one of our
+single step automated solutions, for example, advertisers who might only use a
+piece of it like Advantage+ audiences by helping them understand, the benefits
+of using more than one automated system -- one automated solution at the
+same time.
+So I would say, Advantage+ is sort of an ongoing platform by which we both
+continue to expand the feature set that is available in Advantage+, and then
+expand the extensibility or the coverage of that feature set to -- sort of the
+broader set of advertisers. I think Mark mentioned that the annual revenue run
+right now for advertisers who are using these automated options is $60 billion,
+and again, we see that there’s room to continue growing that.
+Operator: Your next question comes from the line of Youssef Squali with Truist
+Securities. Please go ahead.
+Youssef Squali: Great. Thank you very much. Mark, on wearables in particular, do you think
+you’ll be able to sell enough hardware to recoup your investment or is that
+dependent on maybe creating new avenues for revenue from things like
+advertising services and commerce through that new computing platform?
+And if so, what are kind of the gating factors there? And then Susan, how do
+you see the on balance sheet versus off balance sheet financing of your AI
+initiatives? You’ve recently struck a deal with Blue Owl for the Louisiana data
+center. Is that part of the CapEx guide for ‘26? And if it’s not, how significant
+will that way of funding be for Meta going forward and basically will that slow
+down your CapEx growth past 2026? Thank you.
+Mark Zuckerberg: I can talk about wearables, and Susan can jump in on the other part. So I think
+that there are a few pieces here. One is that the work that on Ray-Ban Meta
+and the Oakley Meta products is going very well. I think, yeah, I mean, at some
+point, if these continue going as well as it has been, then I think it will be a very
+profitable investment.
+I think that there’s some revenue that we get from basically selling the devices
+and then some that will come from additional services and from the AI on top
+of it. So I think that there’s a big opportunity. Certainly, the investment here is
+not just to kind of build a -- just the device. It’s also to build the services on top.
+Right now a lot of people get the devices for a range of things that don’t even
+include the AI, even though they like the AI. But I think over time, the AI is going
+to become the main thing that people are using them for. And I think that that’s
+going to end up having a big business opportunity by itself.
+But as products like the Ray-Ban Meta and Oakley Metas are growing, we’re
+also going to keep on investing in things like the more full field of view product
+form of the Orion prototype that we showed at Connect last year. So those
+things are obviously earlier in their curve towards getting to being a sustaining
+business.
+And our general view is that we want to build these out to reach many
+hundreds of millions or billions of people. And that’s the point at which we think
+that this is going to be just an extremely profitable business.
+Susan Li: Youssef, to your second question. So the JV that we announced with Blue Owl
+is sort of an example of finding a solution that enabled us to partner with
+external capital providers to co-develop data centers in a way that gives us
+long term optionality in supporting our future capacity needs, just given both
+the magnitude, but also uncertainty of what the capacity outlook in future
+years looks like.
+In terms of how that is recognized as CapEx, our prior CapEx reflected a portion
+of the data center build cost prior to the joint venture being established. Going
+forward, the construction cost of the data center will not be recorded in CapEx.
+As the data center is constructed, we will contribute 20% of the remaining
+construction costs required, which is in line with our ownership stake, and
+those will be recorded as other investing cash flows.
+Operator: Your last question comes from the line of Ken Gawrelski with Wells Fargo.
+Please go ahead.
+Ken Gawrelski: Thank you. Just one for me, please. Mark, as you think about with a, hopefully,
+a leading frontier model next year in hand, could you talk about where you think
+the value will accrue in this evolving ecosystem? Will it be with the platforms,
+or do you think that this will be mostly -- the value will accrue to the scaled first
+party applications? Thank you.
+Mark Zuckerberg: I guess I’m not exactly sure what you mean by platform versus application in
+this context, but I mean, I think that -- I mean, I think that there’s just a lot of
+value to create with AI overall. So, I mean, clearly you’re seeing the people who
+are making the hardware, Nvidia’s doing an amazing job, right.
+I think extremely well deserved success. The cloud partners and companies are
+making -- or are doing very well. I think that that will likely continue. I think
+there’s a huge opportunity there. And -- but if you look at it today, the
+companies that are building apps, I mean, a lot of the apps are still relatively
+small.
+And I think that that’s obviously going to be a huge opportunity. And I think
+what we’ve seen overall is basically, people take like individual technology
+advances and build them into products that then build either communities or
+other kinds of network effects and then end up being very sustaining
+businesses.
+And I think what we haven’t really seen as much in the history of the
+technology industry is the rate of new capabilities being introduced because
+around each of these capabilities, you can build many new products that I think
+each will turn into interesting businesses.
+So, yeah, so I don’t know. I mean, I’m generally pretty optimistic about there
+being a very large opportunity, but in terms of new things to build, I think being
+able to build them and then scale them to billions of people is a huge muscle
+that Meta has developed and I think we do very well.
+And I certainly think that that’s going to deliver a huge amount of value, both in
+the core business for all the ways that we talked about, how it’s going to
+improve recommendations and the quality of the services, as well as unifying
+the models together. So that way, when these systems are deciding what to
+show, they can just pull from a wider pool.
+And these are things that we’ve just seen over the 20 plus years of running the
+company that they just deliver consistent wins, that we’re going to keep on
+being able to make the systems more general and smarter and make better
+recommendations for people and have a larger pool of inventory.
+And that is all going to be great. And then there’s going to be a lot of new
+things that I think we’re going to be able to take and scale to billions of people
+over time and build new businesses, whether that’s advertising or commerce-
+supported or people paying for it or different kinds of things.
+So, yeah, it’s -- I think it’s pretty early, but I think we’re seeing the returns in the
+core business. That’s giving us a lot of confidence that we should be investing a
+lot more and we want to make sure that we’re not underinvesting.
+Kenneth Dorell: Great. Thank you everyone for joining us today. We look forward to speaking
+with you again soon.
+Operator: This concludes today’s conference call. Thank you for your participation and
+you may now disconnect.
+
+NVIDIA Corporation (NVDA) Q3 FY2026 earnings call transcript
+Powered by Quartr
+Nov 19, 2025, 5:00 PM EST
+Earnings call
+
+NVIDIA delivered Q3 FY26 revenue of $57B, up 62% YoY and 22% QoQ, with data center revenue hitting $51B (+66% YoY). Gross margins reached 73.6% (non-GAAP), and Q4 revenue is guided to $65B (+14% QoQ). Management reaffirmed its $500B Blackwell-Rubin pipeline through 2026 and expects continued strong demand across AI infrastructure.
+Powered by Yahoo Finance AI
+Operator
+
+0:00:00
+
+Good afternoon. My name is Sarah, and I will be your conference operator today. At this time, I would like to welcome everyone to NVIDIA's third quarter earnings call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. If you would like to ask a question during this time, simply press star, followed by the number one on your telephone keypad. If you would like to withdraw your question, press star one again. Thank you. Toshiya Hari, you may begin your conference.
+Toshiya Hari
+VP of Investor Relations
+
+0:00:33
+
+Thank you. Good afternoon, everyone, and welcome to NVIDIA's conference call for the third quarter of fiscal 2026. With me today from NVIDIA are Jensen Huang, President and Chief Executive Officer, and Colette Kress, Executive Vice President and Chief Financial Officer. I'd like to remind you that our call is being webcast live on NVIDIA's Investor Relations website. The webcast will be available for replay until the conference call to discuss our financial results for the fourth quarter of fiscal 2026. The content of today's call is NVIDIA's property. It can't be reproduced or transcribed without our prior written consent. During this call, we may make forward-looking statements based on current expectations. These are subject to a number of significant risks and uncertainties, and our actual results may differ materially.
+Toshiya Hari
+VP of Investor Relations
+
+0:01:24
+
+For a discussion of factors that could affect our future financial results and business, please refer to the disclosure in today's earnings release, our most recent forms 10-K and 10-Q, and the reports that we may file on Form 8-K with the Securities and Exchange Commission. All our statements are made as of today, November 19, 2025, based on information currently available to us. Except as required by law, we assume no obligation to update any such statements. During this call, we will discuss non-GAAP financial measures. You can find a reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which is posted on our website. With that, let me turn the call over to Colette.
+Colette Kress
+EVP and CFO
+
+0:02:08
+
+Thank you, Toshiya. We delivered another outstanding quarter with revenue of $57 billion, up 62% year over year, and a record sequential revenue growth of $10 billion, or 22%. Our customers continue to lean into three platform shifts, fueling exponential growth for accelerated computing, powerful AI models, and agentic applications. Yet, we are still in the early innings of these transitions that will impact our work across every industry. We currently have visibility to $500 billion in Blackwell and Rubin revenue from the start of this year through the end of calendar year 2026. By executing our annual product cadence and extending our performance leadership through full-stack design, we believe NVIDIA will be the superior choice for the $3 trillion-$4 trillion in annual AI infrastructure build we estimate by the end of the decade. Demand for AI infrastructure continues to exceed our expectations.
+Colette Kress
+EVP and CFO
+
+0:03:18
+
+The clouds are sold out, and our GPU-installed base, both new and previous generations, including Blackwell, Hopper, and Ampere, is fully utilized. Record Q3 data center revenue of $51 billion increased 66% year over year, a significant feat at our scale. Compute grew 56% year over year, driven primarily by the GB300 ramp, while networking more than doubled given the onset of NVLink scale-up and robust double-digit growth across Spectrum X Ethernet and Quantum X InfiniBand. The world hyperscalers, a trillion-dollar industry, are transforming search, recommendations, and content understanding from classical machine learning to generative AI. NVIDIA CUDA excels at both and is the ideal platform for this transition, driving infrastructure investment measured in hundreds of billions of dollars. At Meta, AI recommendation systems are delivering higher quality and more relevant content, leading to more time spent on apps such as Facebook and Threads.
+Colette Kress
+EVP and CFO
+
+0:04:35
+
+Analyst expectations for the top CSPs and hyperscalers in 2026 aggregate CapEx have continued to increase and now sit roughly at $600 billion, more than $200 billion higher relative to the start of the year. We see the transition to accelerated computing and generative AI across current hyperscale workloads contributing toward roughly half of our long-term opportunity. Another growth pillar is the ongoing increase in compute spend driven by foundation model builders such as Anthropic, Mistral, OpenAI, Reflection, Safe Superintelligence, Thinking Machines Lab, and xAI, all scaling compute aggressively to scale intelligence. The three scaling laws, pre-training, post-training, and inference remain intact. In fact, we see a positive virtuous cycle emerging whereby the three scaling laws and access to compute are generating better intelligence and, in turn, increasing adoption and profits.
+Colette Kress
+EVP and CFO
+
+0:05:49
+
+OpenAI recently shared that their weekly user base has grown to $800 million, enterprise customers have increased to 1 million, and that their gross margins were healthy. While Anthropic recently reported that its annualized run rate revenue has reached $7 billion as of last month, up from $1 billion at the start of the year. We are also witnessing a proliferation of agentic AI across various industries and tasks. Companies such as Cursor, Anthropic, Open Evidence, Epic, and Abridge are experiencing a surge in user growth as they supercharge the existing workforce, delivering unquestionable ROI for coders and healthcare professionals. The world's most important enterprise software platforms like ServiceNow, CrowdStrike, and SAP are integrating NVIDIA's accelerated computing and AI stack. Our new partner, Palantir, is supercharging the incredibly popular ontology platform with NVIDIA CUDA X libraries and AI models for the first time.
+Colette Kress
+EVP and CFO
+
+0:07:10
+
+Previously, like most enterprise software platforms, Ontology runs only on CPUs. Lowe's is leveraging the platform to build supply chain agility, reducing costs and improving customer satisfaction. Enterprises broadly are leveraging AI to boost productivity, increase efficiency, and reduce costs. RBC is leveraging agentic AI to drive significant analyst productivity, slashing report generation time from hours to minutes. AI and digital twins are helping Unilever accelerate content creation by 2x and cut costs by 50%. Salesforce's engineering team has seen at least a 30% productivity increase in new code development after adopting Cursor. This past quarter, we announced AI factory and infrastructure projects amounting to an aggregate of 5 million GPUs. This demand spans every market: CSPs, sovereigns, model builders, enterprises, and supercomputing centers, and includes multiple landmark buildouts.
+Colette Kress
+EVP and CFO
+
+0:08:25
+
+xAI's Colossus 2, the world's first gigawatt-scale data center, Lilly's AI factory for drug discovery, the pharmaceutical industry's most powerful data center. Just today, AWS and Humane expanded their partnership, including the deployment of up to 150,000 AI accelerators, including our GB300. xAI and Humane also announced a partnership in which the two will jointly develop a network of world-class GPU data centers anchored by the flagship 500-megawatt facility. Blackwell gained further momentum in Q3 as GB300 crossed over GB200 and contributed roughly two-thirds of the total Blackwell revenue. The transition to GB300 has been seamless, with production shipments to the major cloud service providers, hyperscalers, and GPU clouds, and is already driving their growth. The Hopper platform, in its 13th quarter since inception, recorded approximately $2 billion in revenue in Q3. H20 sales were approximately $50 million.
+Colette Kress
+EVP and CFO
+
+0:09:50
+
+Sizable purchase orders never materialized in the quarter due to geopolitical issues and the increasingly competitive market in China. While we were disappointed in the current state that prevents us from shipping more competitive data center compute products to China, we are committed to continued engagement with the U.S. and China governments and will continue to advocate for America's ability to compete around the world. To establish a sustainable leadership position in AI computing, America must win the support of every developer and be the platform of choice for every commercial business, including those in China. The Rubin platform is on track to ramp in the second half of 2026. Powered by seven chips, the Vera Rubin platform will once again deliver an X-factor improvement in performance relative to Blackwell.
+Colette Kress
+EVP and CFO
+
+0:10:51
+
+We have received silicon back from our supply chain partners and are happy to report that NVIDIA teams across the world are executing the bring-up beautifully. Rubin is our third-generation rack-scale system, substantially redefined the manufacturability while remaining compatible with Grace Blackwell. Our supply chain data center ecosystem and cloud partners have now mastered the build-to-installation process of NVIDIA's rack architecture. Our ecosystem will be ready for a fast Rubin ramp. Our annual X-factor performance leap increases performance per dollar while driving down computing costs for our customers. The long useful life of NVIDIA's CUDA GPUs is a significant TCO advantage over accelerators. CUDA's compatibility and our massive installed base extend the life of NVIDIA systems well beyond their original estimated useful life. For more than two decades, we have optimized the CUDA ecosystem, improving existing workloads, accelerating new ones, and increasing throughput with every software release.
+Colette Kress
+EVP and CFO
+
+0:12:09
+
+Most accelerators without CUDA and NVIDIA's time-tested and versatile architecture became obsolete within a few years as model technologies evolve. Thanks to CUDA, the A100 GPUs we shipped six years ago are still running at full utilization today, powered by vastly improved software stack. We have evolved over the past 25 years from a gaming GPU company to now an AI data center infrastructure company. Our ability to innovate across the CPU, the GPU, networking, and software, and ultimately drive down cost per token, is unmatched across the industry. Our networking business, purpose-built for AI and now the largest in the world, generated revenue of $8.2 billion, up 162% year over year, with NVLink, InfiniBand, and Spectrum X Ethernet all contributing to growth. We are winning in data center networking as the majority of AI deployments now include our switches with Ethernet GPU attach rates roughly on par with InfiniBand.
+Colette Kress
+EVP and CFO
+
+0:13:31
+
+Meta, Microsoft, Oracle, and xAI are building gigawatt AI factories with Spectrum X Ethernet switches, and each will run its operating system of choice, highlighting the flexibility and openness of our platform. We recently introduced Spectrum XGS, a scale-across technology that enables gigascale AI factories. NVIDIA is the only company with AI scale-up, scale-out, and scale-across platforms, reinforcing our unique position in the market as the AI infrastructure provider. Customer interest in NVLink Fusion continues to grow. We announced a strategic collaboration with Fujitsu in October, where we will integrate Fujitsu's CPUs and NVIDIA GPUs via NVLink Fusion, connecting our large ecosystems. We also announced a collaboration with Intel to develop multiple generations of custom data center and PC products, connecting NVIDIA and Intel's ecosystems using NVLink.
+Colette Kress
+EVP and CFO
+
+0:14:42
+
+This week at Supercomputing 25, Arm announced that it will be integrating NVLink IP for customers to build CPU SoCs that connect with NVIDIA. Currently on its fifth generation, NVLink is the only proven scale-up technology available on the market today. In the latest MLPerf training results, Blackwell Ultra delivered 5x faster time to train than Hopper. NVIDIA swept every benchmark. Notably, NVIDIA is the only training platform to leverage bridge FP4 while meeting MLPerf's strict accuracy standards. In semi-analysis inference max benchmark, Blackwell achieved the highest performance and lowest total cost of ownership across every model and use case. Particularly important is Blackwell's NVLink's performance on a mixture of experts, the architecture for the world's most popular reasoning models. On DeepSeek R1, Blackwell delivered 10x higher performance per watt and 10x lower cost per token versus H200, a huge generational leap fueled by our extreme code design approach.
+Colette Kress
+EVP and CFO
+
+0:16:08
+
+NVIDIA Dynamo, an open-source, low-latency modular inference framework, has now been adopted by every major cloud service provider. Leveraging Dynamo's enablement and disaggregated inference, the resulting increase in performance of complex AI models such as MOE models, AWS, Google Cloud, Microsoft Azure, and OCI have boosted AI inference performance for enterprise cloud customers. We are working on a strategic partnership with OpenAI focused on helping them build and deploy at least 10 gigawatts of AI data centers. In addition, we have the opportunity to invest in the company. We serve OpenAI through their cloud partners, Microsoft Azure, OCI, and CoreWeave. We will continue to do so for the foreseeable future. As they continue to scale, we are delighted to support the company to add self-build infrastructure, and we are working toward a definitive agreement and are excited to support OpenAI's growth. Yesterday, we celebrated an announcement with Anthropic.
+Colette Kress
+EVP and CFO
+
+0:17:25
+
+For the first time, Anthropic is adopting NVIDIA, and we are establishing a deep technology partnership to support Anthropic's fast growth. We will collaborate to optimize Anthropic models for CUDA and deliver the best possible performance, efficiency, and TCO. We will also optimize future NVIDIA architectures for Anthropic workloads. Anthropic's compute commitment is initially including up to 1 gigawatt of compute capacity with Grace Blackwell and Vera Rubin systems. Our strategic investments in Anthropic, Mistral, OpenAI, Reflection, Thinking Machines, and others represent partnerships that grow the NVIDIA CUDA AI ecosystem and enable every model to run optimally on NVIDIA's everywhere. We will continue to invest strategically while preserving our disciplined approach to cash flow management. Physical AI is already a multi-billion dollar business addressing a multi-trillion dollar opportunity and the next leg of growth for NVIDIA. Leading U.S.
+Colette Kress
+EVP and CFO
+
+0:18:39
+
+Manufacturers and robotics innovators are leveraging NVIDIA's three-computer architecture to train on NVIDIA, test on Omniverse computer, and deploy real-world AI on Jetson robotic computers. PTC and Siemens introduced new services that bring Omniverse-powered digital twin workflows to their extensive installed base of customers. Companies including Belden, Caterpillar, Foxconn, Lucid Motors, Toyota, TSMC, and Wistron are building Omniverse digital twin factories to accelerate AI-driven manufacturing and automation. Agility Robotics, Amazon Robotics, Figure, and Skilled at AI are building our platform, tapping offerings such as NVIDIA Cosmos World Foundation models for development, Omniverse for simulation and validation, and Jetson to power next-generation intelligent robots. We remain focused on building resiliency and redundancy in our global supply chain. Last month, in partnership with TSMC, we celebrated the first Blackwell wafer produced on U.S. soil.
+Colette Kress
+EVP and CFO
+
+0:19:55
+
+We will continue to work with Foxconn, Wistron, Amcor, Spill, and others to grow our presence in the U.S. over the next four years. Gaming revenue was $4.3 billion, up 30% year-on-year, driven by strong demand as Blackwell momentum continued. End-market sell-through remains robust, and channel inventories are at normal levels heading into the holiday season. Steam recently broke its concurrent user record with 42 million gamers, while thousands of fans packed the GeForce Gamer Festival in South Korea to celebrate 25 years of GeForce. NVIDIA Pro Visualization has evolved into computers for engineers and developers, whether for graphics or for AI. Professional visualization revenue was $760 million, up 56% year-over-year, was another record. Growth was driven by DGX Spark, the world's smallest AI supercomputer built on a small configuration of Grace Blackwell. Automotive revenue was $592 million, up 32% year-over-year, primarily driven by self-driving solutions.
+Colette Kress
+EVP and CFO
+
+0:21:18
+
+We are partnering with Uber to scale the world's largest Level 4 ready autonomous fleet, built on the new NVIDIA Hyperion L4 Robotaxi reference architecture. Moving to the rest of the P&L, GAAP gross margins were 73.4%, and non-GAAP gross margins were 73.6%, exceeding our outlook. Gross margins increased sequentially due to our data center mix, improved cycle time, and cost structure. GAAP operating expenses were up 8% sequentially and up 11% on a non-GAAP basis. The growth was driven by infrastructure compute as well as higher compensation and benefits in engineering development costs. Non-GAAP effective tax rate for the third quarter was just over 17%, higher than our guidance of 16.5% due to the strong U.S. revenue. On our balance sheet, inventory grew 32% quarter over quarter, while supply commitments increased 63% sequentially.
+Colette Kress
+EVP and CFO
+
+0:22:29
+
+We are preparing for significant growth ahead and feel good about our ability to execute against our opportunity set. Okay, let me turn to the outlook for the fourth quarter. Total revenue is expected to be $65 billion, plus or minus 2%. At the midpoint, our outlook implies 14% sequential growth driven by continued momentum in the Blackwell architecture. Consistent with last quarter, we are not assuming any data center compute revenue from China. GAAP and non-GAAP gross margins are expected to be 74.8% and 75% respectively, plus or minus 50 basis points. Looking ahead to fiscal year 2027, input costs are on the rise, but we are working to hold gross margins in the mid-70s. GAAP and non-GAAP operating expenses are expected to be approximately $6.7 billion and $5 billion respectively.
+Colette Kress
+EVP and CFO
+
+0:23:41
+
+GAAP and non-GAAP other income and expenses are expected to be an income of approximately $500 million, excluding gains and losses from non-marketable and publicly held equity securities. GAAP and non-GAAP tax rates are expected to be 17%, plus or minus 1%, excluding any discrete items. At this time, let me turn the call over to Jensen for him to say a few words.
+Jensen Huang
+President and CEO
+
+0:24:09
+
+Thanks, Colette. There has been a lot of talk about an AI bubble. From our vantage point, we see something very different. As a reminder, NVIDIA is unlike any other accelerator. We excel at every phase of AI, from pre-training and post-training to inference. With our two-decade investment in CUDA X acceleration libraries, we are also exceptional at science and engineering simulations, computer graphics, structured data processing to classical machine learning.
+Jensen Huang
+President and CEO
+
+0:24:54
+
+The world is undergoing three massive platform shifts at once, the first time since the dawn of Moore's Law. NVIDIA is uniquely addressing each of the three transformations. The first transition is from CPU general-purpose computing to GPU accelerated computing as Moore's Law slows. The world has a massive investment in non-AI software, from data processing to science and engineering simulations, representing hundreds of billions of dollars in compute cloud computing spend each year. Many of these applications, which ran once exclusively on CPUs, are now rapidly shifting to CUDA GPUs. Accelerated computing has reached a tipping point. Secondly, AI has also reached a tipping point and is transforming existing applications while enabling entirely new ones. For existing applications, generative AI is replacing classical machine learning in search ranking, recommender systems, ad targeting, click-through prediction to content moderation, the very foundations of hyperscale infrastructure.
+Jensen Huang
+President and CEO
+
+0:26:26
+
+Meta's Gem, a foundation model for ad recommendations trained on large-scale GPU clusters, exemplifies this shift. In Q2, Meta reported over a 5% increase in ad conversions on Instagram and 3% gain on Facebook feed, driven by generative AI-based Gem. Transitioning to generative AI represents substantial revenue gains for hyperscalers. Now, a new wave is rising: agentic AI systems capable of reasoning, planning, and using tools. From coding assistants like Cursor and Claude Code to radiology tools like iDoc, legal assistants like Harvey, and AI chauffeurs like Tesla FSD and Waymo, these systems mark the next frontier of computing. The fastest-growing companies in the world today—OpenAI, Anthropic, xAI, Google, Cursor, Lovable, Replet, Cognition AI, Open Evidence, Abridge, Tesla—are pioneering agentic AI. There are three massive platform shifts. The transition to accelerated computing is foundational and necessary, essential in a post-Moore's Law era.
+Jensen Huang
+President and CEO
+
+0:27:57
+
+The transition to generative AI is transformational and necessary, supercharging existing applications and business models. The transition to agentic and physical AI will be revolutionary, giving rise to new applications, companies, products, and services. As you consider infrastructure investments, consider these three fundamental dynamics. Each will contribute to infrastructure growth in the coming years. NVIDIA is chosen because our singular architecture enables all three transitions, and thus so for any form and modality of AI across all industries, across every phase of AI, across all of the diverse computing needs in a cloud, and also from cloud to enterprise to robots. One architecture. Toshiya, back to you.
+Toshiya Hari
+VP of Investor Relations
+
+0:29:02
+
+We will now open the call for questions.
+Operator
+
+0:29:06
+
+Operator, would you please pull for questions? Thank you. At this time, I would like to remind everyone in order to ask a question, press star, then the number one on your telephone keypad.
+Operator
+
+0:29:19
+
+We'll pause for just a moment to compile the Q&A roster. As a reminder, please limit yourself to one question. Thank you. Your first question comes from Joseph Moore with Morgan Stanley. Your line is open.
+Joseph Moore
+Semiconductor Industry Analyst
+
+0:29:34
+
+Great. Thank you. I wonder if you could update us. You talked about the $500 billion of revenue for Blackwell plus Rubin in 2025 and 2026 at GTC. At that time, you had talked about $150 billion of that already having been shipped. As the quarter's wrapped up, are those still kind of the general parameters that there's $350 billion in the next kind of 14 months or so? I would assume over that time, you haven't seen all the demand, but there is any possibility of upside to those numbers as we move forward.
+Colette Kress
+EVP and CFO
+
+0:30:05
+
+Yeah. Thanks, Joe. I'll start first with a response here on that. Yes, that's correct.
+Colette Kress
+EVP and CFO
+
+0:30:12
+
+We are working into our $500 billion forecast, and we are on track for that as we have finished some of the quarters. We have several quarters now in front of us to take us through the end of calendar year 2026. The number will grow, and we will achieve, I'm sure, additional needs for compute that will be shippable by fiscal year 2026. We shipped $50 billion this quarter, but we would be not finished if we did not say that we will probably be taking more orders. For example, just even today, our announcements with KSA and that agreement in itself is 400,000-600,000 more GPUs over three years. Anthropic is also not new. There is definitely an opportunity for us to have more on top of the $500 billion that we announced.
+Operator
+
+0:31:09
+
+The next question comes from C.J. Muse with Cantor Fitzgerald.
+Operator
+
+0:31:20
+
+Your line is open.
+CJ Muse
+Senior Managing Director
+
+0:31:21
+
+Yeah. Good afternoon. Thank you for taking the question. There's clearly a great deal of consternation around the magnitude of AI infrastructure buildouts and the ability to fund such plans and the ROI. Yet at the same time, you're talking about being sold out. Every stood-up GPU is taken. The AI world hasn't seen the enormous benefit yet from B300, never mind Rubin. Gemini 3 just announced Grok 5 coming soon. The question is this: when you look at that as the backdrop, do you see a realistic path for supply to catch up with demand over the next 12 to 18 months, or do you think it can extend beyond that timeframe?
+Jensen Huang
+President and CEO
+
+0:31:59
+
+As you know, we've done a really good job planning our supply chain. NVIDIA's supply chain basically includes every technology company in the world.
+Jensen Huang
+President and CEO
+
+0:32:15
+
+TSMC and their packaging and our memory vendors and memory partners and all of our system ODMs have done a really good job planning with us. We were planning for a big year. We've seen for some time the three transitions that I spoke about just a second ago: accelerated computing from general-purpose computing. It's really important to recognize that AI is not just agentic AI, but generative AI is transforming the way that hyperscalers did the work that they used to do on CPUs. Generative AI made it possible for them to move search and recommender systems and add recommendations and targeting. All of that has been moved to generative AI and is still transitioning.
+Jensen Huang
+President and CEO
+
+0:33:05
+
+Whether you installed NVIDIA GPUs for data processing, or you did it for generative AI for your recommender system, or you're building it for agentic chatbots and the type of AIs that most people see when they think about AI, all of those applications are accelerated by NVIDIA. When you look at the totality of the spend, it's really important to think about each one of those layers. They're all growing. They're related, but not the same. The wonderful thing is that they all run on NVIDIA GPUs. Simultaneously, because the quality of the AI models are improving so incredibly, the adoption of it in the different use cases, whether it's in code assistance, which NVIDIA uses fairly exhaustively, and we're not the only one.
+Jensen Huang
+President and CEO
+
+0:33:59
+
+I mean, the fastest-growing application in history, a combination of Cursor and Claude Code and OpenAI's Codex and GitHub Copilot, these applications are the fastest-growing in history. It's not just used for software engineers. It's used because of vibe coding. It's used by engineers and marketeers all over companies, supply chain planners all over companies. I think that that's just one example, and the list goes on, whether it's open evidence and the work that they do in healthcare or the work that's being done in digital video editing, runway. I mean, the number of really, really exciting startups that are taking advantage of generative AI and agentic AI is growing quite rapidly. Not to mention, we're all using it a lot more.
+Jensen Huang
+President and CEO
+
+0:34:51
+
+All of these exponentials, not to mention, just today, I was reading a text from Demis, and he was saying that pre-training and post-training are fully intact. Gemini 3 takes advantage of the scaling laws and got a received a huge jump in quality performance and model performance. We are seeing all of these exponentials kind of running at the same time. I just always go back to first principles and think about what's happening from each one of the dynamics that I mentioned before: general-purpose computing to accelerated computing, generative AI replacing classical machine learning, and of course, agentic AI, which is a brand new category.
+Operator
+
+0:35:35
+
+The next question comes from Vivek Aria with Bank of America Securities. Your line is open.
+Vivek Arya
+Managing Director and Senior Analyst
+
+0:35:47
+
+Thanks for taking my question. I'm curious, what assumptions are you making on NVIDIA content per gigawatt in that $500 billion number?
+Vivek Arya
+Managing Director and Senior Analyst
+
+0:35:57
+
+Because we have heard numbers as low as $25 billion per gigawatt of content to as high as $30 or $40 billion per gigawatt. I am curious what power and what dollar per gigawatt assumptions you are making as part of that $500 billion number. Longer-term, Jensen, the $3 to $4 trillion in data center by 2030 was mentioned. How much of that do you think will require vendor financing, and how much of that can be supported by cash flows of your large customers or governments or enterprises? Thank you.
+Jensen Huang
+President and CEO
+
+0:36:31
+
+In each generation, from Ampere to Hopper, from Hopper to Blackwell, Blackwell to Rubin, our part of the data center increases. Hopper generation was probably something along the lines of 20-somewhat, 20-25. Blackwell generation, Grace Blackwell particularly, is probably 30-30, say 30 plus or minus.
+Jensen Huang
+President and CEO
+
+0:37:05
+
+Rubin is probably higher than that. In each one of these generations, the speedup is X factors. Therefore, their TCO, the customer TCO, improves by X factors. The most important thing is, in the end, you still only have one gigawatt of power, one gigawatt data centers, one gigawatt of power. Therefore, performance per watt, the efficiency of your architecture, is incredibly important. The efficiency of your architecture can't be brute forced. There is no brute forcing about it. That one gigawatt translates directly, your performance per watt translates directly, absolutely directly to your revenues, which is the reason why choosing the right architecture matters so much now. The world doesn't have an excess of anything to squander.
+Jensen Huang
+President and CEO
+
+0:38:00
+
+We have to be really, really—we use this concept called co-design across our entire stack, across the frameworks and models, across the entire data center, even power and cooling optimized across the entire supply chain in our ecosystem. Each generation, our economic contribution will be greater. Our value delivered will be greater. The most important thing is our energy efficiency per watt is going to be extraordinary every single generation. With respect to growing into continuing to grow, our customers' financing is up to them. We see the opportunity to grow for quite some time. Remember, today, most of the focus has been on the hyperscalers. One of the areas that is really misunderstood about the hyperscalers is that the investment on NVIDIA GPUs not only improves their scale, speed, and cost from general-purpose computing—that is number one—because Moore's Law scaling has really slowed.
+Jensen Huang
+President and CEO
+
+0:39:16
+
+Moore's Law is about driving cost down. It's about deflationary cost, the incredible deflationary cost of computing over time. That has slowed. Therefore, a new approach is necessary for them to keep driving the cost down. Going to NVIDIA GPU computing is really the best way to do so. The second is revenue boosting in their current business models. Recommender systems drive the world's hyperscalers every single, whether it's watching short-form videos or recommending books or recommending the next item in your basket to recommending ads to recommending news to—it's all about recommenders. The internet has trillions of pieces of content. How could they possibly figure out what to put in front of you and your little tiny screen unless they have really sophisticated recommender systems to do so? That has gone generative AI.
+Jensen Huang
+President and CEO
+
+0:40:13
+
+The first two things that I've just said, hundreds of billions of dollars of CapEx is going to have to be invested, is fully cash flow funded. What is above it, therefore, is agentic AI. This is net new, net new consumption, but it's also net new applications. And some of the applications I mentioned before, but these new applications are also the fastest-growing applications in history. Okay? I think that you're going to see that once people start to appreciate what is actually happening under the water, if you will, from the simplistic view of what's happening to CapEx investment, recognizing there's these three dynamics. Lastly, remember, we were just talking about the American CSPs. Each country will fund their own infrastructure. You have multiple countries. You have multiple industries.
+Jensen Huang
+President and CEO
+
+0:41:10
+
+Most of the world's industries haven't really engaged agentic AI yet, and they're about to. All the names of companies that you know we're working with, whether it's autonomous vehicle companies or digital twins for physical AI for factories and the number of factories and warehouses being built around the world, just the number of digital biology startups that are being funded so that we could accelerate drug discovery. All of those different industries are now getting engaged, and they're going to do their own fundraising. Do not just look at the hyperscalers as a way to build out for the future. You got to look at the world. You got to look at all the different industries. Enterprise computing is going to fund their own industry.
+Operator
+
+0:41:55
+
+The next question comes from Ben Ritzes with Melius. Your line is open.
+Ben Reitzes
+Managing Director and Head of Technology Research
+
+0:42:05
+
+Hey, thanks a lot.
+Ben Reitzes
+Managing Director and Head of Technology Research
+
+0:42:09
+
+Jensen, I wanted to ask you about cash. Speaking of half a trillion, you may generate about half a trillion in free cash flow over the next couple of years. What are your plans for that cash? How much goes to buyback versus investing in the ecosystem? How do you look at investing in the ecosystem? I think there's just a lot of confusion out there about how these deals work and your criteria for doing those, like the Anthropic, the OpenAIs, etc. Thanks a lot.
+Jensen Huang
+President and CEO
+
+0:42:38
+
+Yeah, appreciate the question. Of course, using cash to fund our growth, no company has grown at the scale that we're talking about and have the connection and the depth and the breadth of supply chain that NVIDIA has.
+Jensen Huang
+President and CEO
+
+0:43:00
+
+The reason why our entire customer base can rely on us is because we've secured a really resilient supply chain, and we have the balance sheet to support them. When we make purchases, our suppliers can take it to the bank. When we make forecasts and we plan with them, they take us seriously because of our balance sheet. We're not making up the offtake. We know what our offtake is. Because they've been planning with us for so many years, our reputation and our credibility is incredible. It takes really strong balance sheet to do that, to support the level of growth and the rate of growth and the magnitude associated with that. That's number one. The second thing, of course, we're going to continue to do stock buybacks. We're going to continue to do that.
+Jensen Huang
+President and CEO
+
+0:44:00
+
+With respect to the investments, this is really, really important work that we do. All of the investments that we've done so far, well, all the period, is associated with expanding the reach of CUDA, expanding the ecosystem. If you look at the work, the investments that we did with OpenAI, it's, of course, that relationship we've had since 2016. I delivered the first AI supercomputer ever made to OpenAI. We have had a close and wonderful relationship with OpenAI since then. Everything that OpenAI does runs on NVIDIA today. All the clouds that they deploy in, whether it's training and inference, runs NVIDIA, and we love working with them. The partnership that we have with them is one so that we could work even deeper from a technical perspective so that we could support their accelerated growth. This is a company that's growing incredibly fast.
+Jensen Huang
+President and CEO
+
+0:45:02
+
+Do not just look at what is said in the press. Look at all the ecosystem partners and all the developers that are connected to OpenAI. They are all driving consumption of it. The quality of the AI that is being produced is a huge step up since a year ago. The quality of response is extraordinary. We invest in OpenAI for a deep partnership in co-development to expand our ecosystem and to support their growth. Of course, rather than giving up a share of our company, we get a share of their company. We invested in them in one of the most consequential once-in-a-generation companies, once-in-a-generation company that we have a share of. I fully expect that investment to translate to extraordinary returns. Now, in the case of Anthropic, this is the first time that Anthropic will be on NVIDIA's architecture.
+Jensen Huang
+President and CEO
+
+0:45:55
+
+The first time Anthropic will be on NVIDIA's architecture is the second most successful AI in the world in terms of total number of users. In enterprise, they're doing incredibly well. Claude Code is doing incredibly well. Claude is doing incredibly well all over the world's enterprise. Now we have the opportunity to have a deep partnership with them and bringing Claude onto the NVIDIA platform. What do we have now? NVIDIA's architecture, taking a step back, NVIDIA's architecture, NVIDIA's platform is the singular platform in the world that runs every AI model. We run OpenAI. We run Anthropic. We run xAI because of our deep partnership with Elon and xAI. We were able to bring that opportunity to Saudi Arabia, to the KSA, so that Humane could also be hosting opportunity for xAI. We run xAI. We run Gemini. We run Thinking Machines.
+Jensen Huang
+President and CEO
+
+0:47:04
+
+Let's see, what else do we run? We run them all. Not to mention, we run the science models, the biology models, DNA models, gene models, chemical models, and all the different fields around the world. It's not just cognitive AI that the world uses. AI is impacting every single industry. We have the ability, through the ecosystem investments that we make, to partner with, deeply partner on a technical basis with some of the best companies, most brilliant companies in the world. We are expanding the reach of our ecosystem, and we're getting a share and investment in what will be a very successful company, oftentimes once-in-a-generation company. That's our investment thesis.
+Operator
+
+0:47:52
+
+The next question comes from Jim Schneider with Goldman Sachs. Your line is open.
+Jim Schneider
+Senior Equity Analyst
+
+0:48:02
+
+Good afternoon. Thanks for taking my question.
+Jim Schneider
+Senior Equity Analyst
+
+0:48:06
+
+In the past, you've talked about roughly 40% of your shipments tied to AI inference. I'm wondering, as you look forward into next year, where do you expect that percentage could go in, say, a year's time? Can you maybe address the Rubin CPX product you expect to introduce next year and contextualize that? How big of the overall TAM you expect that can take and maybe talk about some of the target customer applications for that specific product? Thank you.
+Jensen Huang
+President and CEO
+
+0:48:34
+
+CPX is designed for long-context type of workload generation. Long-context, basically, before you start generating answers, you have to read a lot, basically long-context. It could be a bunch of PDFs. It could be watching a bunch of videos, studying 3D images, so on and so forth. You have to absorb the context. CPX is designed for long-context type of workloads.
+Jensen Huang
+President and CEO
+
+0:49:11
+
+It's perf per dollars. Its perf per dollar is excellent. Its perf per watt is excellent. Which made me forget the first part of the question. Inferencing. Oh, inference. Yeah. There are three scaling laws that are scaling at the same time. The first scaling law called pretraining continues to be very effective. And the second is post-training. Post-training basically has found incredible algorithms for improving an AI's ability to break a problem down and solve a problem step by step. And post-training is scaling exponentially. Basically, the more compute you apply to a model, the smarter it is, the more intelligent it is. And then the third is inference. Inference, because of chain of thought, because of reasoning capabilities, AIs are essentially reading, thinking before it answers. The amount of computation necessary as a result of those three things has gone completely exponential.
+Jensen Huang
+President and CEO
+
+0:50:23
+
+I think that it's hard to know exactly what the percentage will be at any given point in time and who. Of course, our hope is that inference is a very large part of the market. If inference is large, then what it suggests is that people are using it in more applications, and they're using it more frequently. We should all hope for inference to be very large. This is where Grace Blackwell is just an order of magnitude better, more advanced than anything in the world. The second best platform is H200. It's very clear now that GB300, GB200, and GB300, because of NVLink 72, the scale-up network that we have achieved, and you saw and Colette talked about in the semi-analysis benchmark, it's the largest single inference benchmark ever done.
+Jensen Huang
+President and CEO
+
+0:51:20
+
+GB200, NVLink 72, is 10 times, 10-15 times higher performance. That is a big step up. It is going to take a long time before somebody is able to take that on. Our leadership there is surely multi-year. Yeah. I think I am hoping that inference becomes a very big deal. Our leadership in inference is extraordinary. The next question comes from Timothy Arcury with UBS. Your line is open. Thanks a lot. Jensen, many of your customers are pursuing behind-the-meter power. What is the single biggest bottleneck that worries you that could constrain your growth? Is it power, or maybe it is financing, or maybe it is something else like memory or even foundry? Thanks a lot. These are all issues, and they are all constraints.
+Jensen Huang
+President and CEO
+
+0:52:15
+
+The reason for that, when you're growing at the rate that we are and the scale that we are, how could anything be easy? What NVIDIA is doing, obviously, has never been done before. We have created a whole new industry. On the one hand, we are transitioning computing from general-purpose and classical or traditional computing to accelerated computing and AI. That's on the one hand. On the other hand, we created a whole new industry called AI factories. The idea that in order for software to run, you need these factories to generate it, generate every single token instead of retrieving information that was pre-created. I think this whole transition requires extraordinary scale. All the way from the supply chain, of course, the supply chain, we have much better visibility and control over it because, obviously, we're incredibly good at managing our supply chain.
+Jensen Huang
+President and CEO
+
+0:53:17
+
+We have great partners that we've worked with for 33 years. The supply chain part of it, we're quite confident. Now, looking down our supply chain, we've now established partnerships with so many players in land and power and shell and, of course, financing. None of these things are easy, but they're all tractable, and they're all solvable things. The most important thing that we have to do is do a good job planning. We plan up the supply chain, down the supply chain. We have established a whole lot of partners. We have a lot of routes to market. Very importantly, our architecture has to deliver the best value to the customers that we have. At this point, I'm very confident that NVIDIA's architecture is the best performance per TCO.
+Jensen Huang
+President and CEO
+
+0:54:16
+
+It is the best performance per watt, and therefore, for any amount of energy that is delivered, our architecture will drive the most revenues. I think the increasing rate of our success, I think that we're more successful this year at this point than we were last year at this point. The number of customers coming to us and the number of platforms coming to us after they've explored others is increasing, not decreasing. I think all of that is just all the things that I've been telling you over the years are really coming true and are becoming evident.
+Operator
+
+0:54:58
+
+The next question comes from Stacey Raskin with Bernstein Research. Your line is open.
+Stacy Rasgon
+Senior Analyst
+
+0:55:09
+
+Questions. Colette, I have some questions on margins. You said for next year, you're working to hold them in the mid-70s. I guess, first of all, what are the biggest cost increases?
+Stacy Rasgon
+Senior Analyst
+
+0:55:26
+
+Is it just memory, or is it something else? What are you doing to work toward that? How much is cost optimizations versus pre-buys versus pricing? Also, how should we think about OpEx growth next year, given the revenues seem likely to grow materially from where we're running right now?
+Colette Kress
+EVP and CFO
+
+0:55:44
+
+Thanks, Stacey. Let me see if I can start with remembering where we were with the current fiscal year that we're in. Remember, earlier this year, we indicated that through cost improvements and mix that we would exit the year and our gross margins in the mid-70s. We've achieved that and getting ready to also execute that in Q4. Now it's time for us to communicate where are we working right now in terms of next year. Next year, there are input prices that are well-known in the industries that we need to work through.
+Colette Kress
+EVP and CFO
+
+0:56:23
+
+Our systems are by no means very easy to work with. There are a tremendous amount of components, many different parts of it, as we think about that. We are taking all of that into account. We do believe, as we look at working again on cost improvements, cycle time, and mix, that we will work to try and hold at our gross margins in the mid-70%. That is our overall plan for gross margin. Your second question is around OpEx. Right now, our goal in terms of OpEx is to really make sure that we are innovating with our engineering teams, with all of our business teams to create more and more systems for this market. As you know, right now, we have a new architecture coming out. That means they are quite busy in order to meet that goal.
+Colette Kress
+EVP and CFO
+
+0:57:17
+
+We're going to continue to see our investments on innovating more and more, both our software, both our systems, and our hardware to do so. I'll leave it turned to Jensen if he wants to add any couple more comments.
+Jensen Huang
+President and CEO
+
+0:57:29
+
+Yeah. That's spot on. I think the only thing that I would add is remember that we plan, we forecast, we plan, and we negotiate with our supply chain well in advance. Our supply chain has known for quite a long time our requirements. And they've known for quite a long time our demand. We've been working with them and negotiating with them for quite a long time. I think the recent surge, obviously, quite significant. Remember, our supply chain has been working with us for a very long time.
+Jensen Huang
+President and CEO
+
+0:58:05
+
+In many cases, we've secured a lot of supply for ourselves because, obviously, they're working with the largest company in the world in doing so. We've also been working closely with them on the financial aspects of it and securing forecasts and plans and so on and so forth. I think all of that has worked out well for us.
+Operator
+
+0:58:25
+
+Your final question comes from the line of Aaron Rakers with Wells Fargo. Your line is open.
+Aaron Rakers
+Wall Street Analyst
+
+0:58:35
+
+Yeah. Thanks for taking the question. Jensen, the question for you, as you think about the Anthropic deal that was announced and just the overall breadth of your customers, I'm curious if your thoughts around the role that AI ASICs or dedicated XPUs play in these architecture buildouts has changed at all. Have you seen?
+Aaron Rakers
+Wall Street Analyst
+
+0:58:58
+
+I think you've been fairly adamant in the past that some of these programs never really see deployments. I'm curious if we're at a point where maybe that's even changed more in favor of just GPU architecture. Thank you.
+Jensen Huang
+President and CEO
+
+0:59:10
+
+Thank you very much. I really appreciate the question. First of all, you're not competing against teams. Excuse me. Again, as a company, you're competing against teams. There just aren't that many teams in the world who are extraordinary at building these incredibly complicated things. Back in the Hopper day and the Ampere days, we would build one GPU. That's the definition of an accelerated AI system. Today, we've got to build entire racks, entire three different types of switches: a scale-up, a scale-out, and a scale-across switch. It takes a lot more than one chip to build a compute node anymore.
+Jensen Huang
+President and CEO
+
+0:59:55
+
+Everything about that computing system, because AI needs to have memory, AI didn't used to have memory at all. Now it has to remember things. The amount of memory and context it has is gigantic. The memory architecture implication is incredible. The diversity of models from a mixture of experts to dense models to diffusion models to autoregressive, not to mention biological models that obey the laws of physics. The list of different types of models has exploded in the last several years. The challenge is the complexity of the problem is much higher. The diversity of AI models is incredibly large. This is where, if I will say, the five things that make us special, if you will. The first thing I would say that makes us special is that we accelerate every phase of that transition. That's the first phase.
+Jensen Huang
+President and CEO
+
+1:00:54
+
+That CUDA allows us to have CUDA X for transitioning from general-purpose to accelerated computing. We are incredibly good at generative AI. We're incredibly good at agentic AI. Every single phase of that, every single layer of that transition, we are excellent at. You can invest in one architecture, use it across the board. You can use one architecture and not worry about the changes in the workload across those three phases. That's number one. Number two, we're excellent at every phase of AI. Everybody's always known that we're incredibly good at pretraining. We're obviously very good at post-training. And we're incredibly good, as it turns out, at inference because inference is really, really hard. How could thinking be easy? People think that inference is one shot, and therefore, it's easy. Anybody could approach the market that way.
+Jensen Huang
+President and CEO
+
+1:01:49
+
+But it turns out to be the hardest of all because thinking, as it turns out, is quite hard. We're great at every phase of AI, the second thing. The third thing is we're now the only architecture in the world that runs every AI model, every frontier AI model. We run open-source AI models incredibly well. We run science models, biology models, robotics models. We run every single model. We're the only architecture in the world that can claim that. It doesn't matter whether you're autoregressive or diffusion-based. We run everything. We run it for every major platform, as I just mentioned. We run every model. The fourth thing I would say is that we're in every cloud. The reason why developers love us is because we're literally everywhere. We're in every cloud.
+Jensen Huang
+President and CEO
+
+1:02:38
+
+We're in every—we could even make you a little tiny cloud called DGX Spark. We're in every computer. We're everywhere, from cloud to on-prem to robotic systems, edge devices, PCs, you name it. One architecture, things just work. It's incredible. The last thing, and this is probably the most important thing, the fifth thing, is if you are a cloud service provider, if you're a new company like Humane, if you're a new company like CoreWeave or NSCALE or Nevius, or OCI for that matter, the reason why NVIDIA is the best platform for you is because our offtake is so diverse. We can help you with offtake. It's not about just putting a random ASIC into a data center. Where's the offtake coming from? Where's the diversity coming from? Where's the resilience coming from?
+Jensen Huang
+President and CEO
+
+1:03:31
+
+The versatility of the architecture coming from, the diversity of capability coming from. NVIDIA has such incredibly good offtake because our ecosystem is so large. So these five things, every phase of acceleration and transition, every phase of AI, every model, every cloud to on-prem, and of course, finally, it all leads to offtake.
+Operator
+
+1:03:51
+
+Thank you. I will now turn the call to Toshiya Hari for closing remarks.
+Toshiya Hari
+VP of Investor Relations
+
+1:04:00
+
+In closing, please note we will be at the UBS Global Technology and AI Conference on December 2nd. And our earnings call to discuss the results of our fourth quarter of fiscal 2026 is scheduled for February 25th. Thank you for joining us today. Operator, please go ahead and close the call.
+Operator
+
+1:04:19
+
+Thank you. This concludes today's conference call. You may now disconnect.
+Copyright © 2025 Yahoo. All rights reserved.
+What's trending
+Dow Jones
+DAX Index
+Nvidia
+Tesla
+DJT
+Tariffs
+Explore more
+Mortgages
+Credit Cards
+Sectors
+Crypto Heatmap
+Financial News
+About
+Data Disclaimer
+Help
+Feedback
+Sitemap
+Licensing
+What's New
+About Our Ads
+Premium Plans
