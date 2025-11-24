@@ -17,30 +17,36 @@ The goal:
 ---
 
 # 📂 Project Structure
+# Project Structure
+```
 LLM-Earnings-Call-Analyst/
 │
 ├── src/
-│ ├── main.py # CLI entrypoint
-│ ├── data_utils.py
-│ ├── tokenizer_train.py
-│ ├── tokenizer_utils.py
-│ ├── train_lm.py
-│ ├── model.py
-│ └── inference_demo.py
-│ ├── rag_pipeline.py
-│ ├── config.py
+│   ├── main.py                 # CLI entrypoint
+│   ├── data_utils.py           # Data preprocessing utilities
+│   ├── tokenizer_train.py      # Tokenizer training script
+│   ├── tokenizer_utils.py      # Tokenizer helper functions
+│   ├── train_lm.py             # Language model training
+│   ├── model.py                # Model architecture
+│   ├── inference_demo.py       # Inference demonstration
+│   ├── rag_pipeline.py         # RAG implementation
+│   └── config.py               # Configuration management
 │
 ├── data/
-│ ├── raw/ # Earnings transcripts (not uploaded)
-│ └── processed/ # Cleaned text split into train/val
+│   ├── raw/                    # Earnings transcripts (not uploaded)
+│   └── processed/              # Cleaned text split into train/val
 │
-├── tokenizer/ # SentencePiece tokenizer files
-├── checkpoints/ # Model checkpoints (not uploaded)
+├── tokenizer/                  # SentencePiece tokenizer files
+│
+├── checkpoints/                # Model checkpoints (not uploaded)
+│
 ├── config/
-│ └── model_config.json
+│   └── model_config.json       # Model configuration
 │
-├── requirements.txt
-└── README.md
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
+```
+```
 
 The following directories intentionally contain **no raw data or heavy checkpoints** due to storage and laptop capacity constraints:
 - `data/raw/`
