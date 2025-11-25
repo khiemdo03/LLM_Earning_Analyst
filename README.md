@@ -1,23 +1,21 @@
-# 🧠 Earnings Call LLM — Demo Project (Custom Tokenizer, Mini GPT, RAG)
+# Earnings Call LLM — Demo Project (Custom Tokenizer, Mini GPT, RAG)
 
-This repository is a **demo implementation** of building a small LLM from scratch.  
-Because of my laptop’s limited hardware (CPU only, low VRAM), the uploaded code and training artifacts represent a **scaled-down version** of the full pipeline.
-
+This repository is a **demo implementation** of building a tiny LLM from scratch, it is tiny because of my hardware specs, only run on CPU and low VRAM.  
 Even though the compute is limited, this project still demonstrates the **core engineering steps required to build and run a real LLM pipeline**, including:
 
-### ✔ Custom tokenizer (SentencePiece BPE)  
-### ✔ Mini GPT-style language model  
-### ✔ End-to-end training loop (from scratch)  
-### ✔ RAG (Retrieval-Augmented Generation) over earnings call transcripts  
-### ✔ CLI tool for training, retrieval, and inference  
+#### Custom tokenizer (SentencePiece BPE)  
+#### Mini GPT-style language model  
+#### End-to-end training loop (from scratch)  
+#### RAG (Retrieval-Augmented Generation) over earnings call transcripts  
+#### CLI tool for training, retrieval, and inference  
 
 The goal:  
-> **Learn all components of LLM development by building a complete—though small—working system.**
+> **Learn all components of LLM development by building a complete—though small—working system. It can work like other LLMs like ChatGPT, Gemini, ect., if can be trained through large data**
 
 ---
 
 # 📂 Project Structure
-# Project Structure
+
 ```
 LLM-Earnings-Call-Analyst/
 │
@@ -46,14 +44,13 @@ LLM-Earnings-Call-Analyst/
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project documentation
 ```
-```
+
 
 The following directories intentionally contain **no raw data or heavy checkpoints** due to storage and laptop capacity constraints:
 - `data/raw/`
 - `checkpoints/`
 - `tokenizer/`  
-
-However, the complete **pipeline code is included**, so you can recreate everything, better machine better quality.
+However, the complete **pipeline code is included**, so you can recreate everything.
 
 ---
 
@@ -64,7 +61,7 @@ Even in demo mode, the project lets you:
 ### **1. Build and train your own tokenizer**
 - Byte-Pair Encoding (BPE)
 - Adjustable vocab size
-
+- Adjust epoch
 ### **2. Train a small GPT-like model**
 - Embedding sizes from 128–512  
 - Context size 128–256  
